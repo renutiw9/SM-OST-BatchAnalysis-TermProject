@@ -1,0 +1,1060 @@
+[2020-12-24 09:43:12,467] INFO Reading configuration from: ..\..\config\zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-12-24 09:43:12,468] WARN ..\..\config\zookeeper.properties is relative. Prepend .\ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-12-24 09:43:12,469] WARN \tmp\zookeeper is relative. Prepend .\ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-12-24 09:43:12,474] INFO clientPortAddress is 0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-12-24 09:43:12,474] INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-12-24 09:43:12,476] INFO autopurge.snapRetainCount set to 3 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2020-12-24 09:43:12,507] INFO autopurge.purgeInterval set to 0 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2020-12-24 09:43:12,507] INFO Purge task is not scheduled. (org.apache.zookeeper.server.DatadirCleanupManager)
+[2020-12-24 09:43:12,508] WARN Either no config or no quorum defined in config, running  in standalone mode (org.apache.zookeeper.server.quorum.QuorumPeerMain)
+[2020-12-24 09:43:12,509] INFO Log4j found with jmx enabled. (org.apache.zookeeper.jmx.ManagedUtil)
+[2020-12-24 09:43:12,518] INFO Reading configuration from: ..\..\config\zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-12-24 09:43:12,518] WARN ..\..\config\zookeeper.properties is relative. Prepend .\ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-12-24 09:43:12,519] WARN \tmp\zookeeper is relative. Prepend .\ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-12-24 09:43:12,519] INFO clientPortAddress is 0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-12-24 09:43:12,519] INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-12-24 09:43:12,520] INFO Starting server (org.apache.zookeeper.server.ZooKeeperServerMain)
+[2020-12-24 09:43:12,522] INFO zookeeper.snapshot.trust.empty : false (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2020-12-24 09:43:12,531] INFO Server environment:zookeeper.version=3.5.7-f0fdd52973d373ffd9c86b81d99842dc2c7f660e, built on 02/10/2020 11:30 GMT (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:43:12,532] INFO Server environment:host.name=liuxiao (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:43:12,532] INFO Server environment:java.version=1.8.0_181 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:43:12,533] INFO Server environment:java.vendor=Oracle Corporation (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:43:12,540] INFO Server environment:java.home=C:\Program Files\Java\jdk1.8.0_181\jre (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:43:12,543] INFO Server environment:java.class.path=F:\kafka\libs\activation-1.1.1.jar;F:\kafka\libs\aopalliance-repackaged-2.5.0.jar;F:\kafka\libs\argparse4j-0.7.0.jar;F:\kafka\libs\audience-annotations-0.5.0.jar;F:\kafka\libs\commons-cli-1.4.jar;F:\kafka\libs\commons-lang3-3.8.1.jar;F:\kafka\libs\connect-api-2.4.1.jar;F:\kafka\libs\connect-basic-auth-extension-2.4.1.jar;F:\kafka\libs\connect-file-2.4.1.jar;F:\kafka\libs\connect-json-2.4.1.jar;F:\kafka\libs\connect-mirror-2.4.1.jar;F:\kafka\libs\connect-mirror-client-2.4.1.jar;F:\kafka\libs\connect-runtime-2.4.1.jar;F:\kafka\libs\connect-transforms-2.4.1.jar;F:\kafka\libs\guava-20.0.jar;F:\kafka\libs\hk2-api-2.5.0.jar;F:\kafka\libs\hk2-locator-2.5.0.jar;F:\kafka\libs\hk2-utils-2.5.0.jar;F:\kafka\libs\jackson-annotations-2.10.0.jar;F:\kafka\libs\jackson-core-2.10.0.jar;F:\kafka\libs\jackson-databind-2.10.0.jar;F:\kafka\libs\jackson-dataformat-csv-2.10.0.jar;F:\kafka\libs\jackson-datatype-jdk8-2.10.0.jar;F:\kafka\libs\jackson-jaxrs-base-2.10.0.jar;F:\kafka\libs\jackson-jaxrs-json-provider-2.10.0.jar;F:\kafka\libs\jackson-module-jaxb-annotations-2.10.0.jar;F:\kafka\libs\jackson-module-paranamer-2.10.0.jar;F:\kafka\libs\jackson-module-scala_2.11-2.10.0.jar;F:\kafka\libs\jakarta.activation-api-1.2.1.jar;F:\kafka\libs\jakarta.annotation-api-1.3.4.jar;F:\kafka\libs\jakarta.inject-2.5.0.jar;F:\kafka\libs\jakarta.ws.rs-api-2.1.5.jar;F:\kafka\libs\jakarta.xml.bind-api-2.3.2.jar;F:\kafka\libs\javassist-3.22.0-CR2.jar;F:\kafka\libs\javax.servlet-api-3.1.0.jar;F:\kafka\libs\javax.ws.rs-api-2.1.1.jar;F:\kafka\libs\jaxb-api-2.3.0.jar;F:\kafka\libs\jersey-client-2.28.jar;F:\kafka\libs\jersey-common-2.28.jar;F:\kafka\libs\jersey-container-servlet-2.28.jar;F:\kafka\libs\jersey-container-servlet-core-2.28.jar;F:\kafka\libs\jersey-hk2-2.28.jar;F:\kafka\libs\jersey-media-jaxb-2.28.jar;F:\kafka\libs\jersey-server-2.28.jar;F:\kafka\libs\jetty-client-9.4.20.v20190813.jar;F:\kafka\libs\jetty-continuation-9.4.20.v20190813.jar;F:\kafka\libs\jetty-http-9.4.20.v20190813.jar;F:\kafka\libs\jetty-io-9.4.20.v20190813.jar;F:\kafka\libs\jetty-security-9.4.20.v20190813.jar;F:\kafka\libs\jetty-server-9.4.20.v20190813.jar;F:\kafka\libs\jetty-servlet-9.4.20.v20190813.jar;F:\kafka\libs\jetty-servlets-9.4.20.v20190813.jar;F:\kafka\libs\jetty-util-9.4.20.v20190813.jar;F:\kafka\libs\jopt-simple-5.0.4.jar;F:\kafka\libs\kafka-clients-2.4.1.jar;F:\kafka\libs\kafka-log4j-appender-2.4.1.jar;F:\kafka\libs\kafka-streams-2.4.1.jar;F:\kafka\libs\kafka-streams-examples-2.4.1.jar;F:\kafka\libs\kafka-streams-scala_2.11-2.4.1.jar;F:\kafka\libs\kafka-streams-test-utils-2.4.1.jar;F:\kafka\libs\kafka-tools-2.4.1.jar;F:\kafka\libs\kafka_2.11-2.4.1-javadoc.jar;F:\kafka\libs\kafka_2.11-2.4.1-javadoc.jar.asc;F:\kafka\libs\kafka_2.11-2.4.1-scaladoc.jar;F:\kafka\libs\kafka_2.11-2.4.1-scaladoc.jar.asc;F:\kafka\libs\kafka_2.11-2.4.1-sources.jar;F:\kafka\libs\kafka_2.11-2.4.1-sources.jar.asc;F:\kafka\libs\kafka_2.11-2.4.1-test-sources.jar;F:\kafka\libs\kafka_2.11-2.4.1-test-sources.jar.asc;F:\kafka\libs\kafka_2.11-2.4.1-test.jar;F:\kafka\libs\kafka_2.11-2.4.1-test.jar.asc;F:\kafka\libs\kafka_2.11-2.4.1.jar;F:\kafka\libs\kafka_2.11-2.4.1.jar.asc;F:\kafka\libs\log4j-1.2.17.jar;F:\kafka\libs\lz4-java-1.6.0.jar;F:\kafka\libs\maven-artifact-3.6.1.jar;F:\kafka\libs\metrics-core-2.2.0.jar;F:\kafka\libs\netty-buffer-4.1.45.Final.jar;F:\kafka\libs\netty-codec-4.1.45.Final.jar;F:\kafka\libs\netty-common-4.1.45.Final.jar;F:\kafka\libs\netty-handler-4.1.45.Final.jar;F:\kafka\libs\netty-resolver-4.1.45.Final.jar;F:\kafka\libs\netty-transport-4.1.45.Final.jar;F:\kafka\libs\netty-transport-native-epoll-4.1.45.Final.jar;F:\kafka\libs\netty-transport-native-unix-common-4.1.45.Final.jar;F:\kafka\libs\osgi-resource-locator-1.0.1.jar;F:\kafka\libs\paranamer-2.8.jar;F:\kafka\libs\plexus-utils-3.2.0.jar;F:\kafka\libs\reflections-0.9.11.jar;F:\kafka\libs\rocksdbjni-5.18.3.jar;F:\kafka\libs\scala-collection-compat_2.11-2.1.2.jar;F:\kafka\libs\scala-java8-compat_2.11-0.9.0.jar;F:\kafka\libs\scala-library-2.11.12.jar;F:\kafka\libs\scala-logging_2.11-3.9.2.jar;F:\kafka\libs\scala-reflect-2.11.12.jar;F:\kafka\libs\slf4j-api-1.7.28.jar;F:\kafka\libs\slf4j-log4j12-1.7.28.jar;F:\kafka\libs\snappy-java-1.1.7.3.jar;F:\kafka\libs\validation-api-2.0.1.Final.jar;F:\kafka\libs\zookeeper-3.5.7.jar;F:\kafka\libs\zookeeper-jute-3.5.7.jar;F:\kafka\libs\zstd-jni-1.4.3-1.jar (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:43:12,562] INFO Server environment:java.library.path=C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files\nodejs\;E:\Program Files (x86)\scala\bin;%SPARK_HOME%\bin;%SPARK_HOME%\sbin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Go\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;E:\soft\netcat\netcat-win32-1.11\netcat-1.11;C:\Program Files\Java\jdk1.8.0_181\bin;E:\mingw\mingw64\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\go\bin;C:\Program Files\Git\bin;C:\Program Files\Git\mingw64\libexec\git-core;C:\Program Files\Git\mingw64\bin;;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;. (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:43:12,569] INFO Server environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\ (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:43:12,569] INFO Server environment:java.compiler=<NA> (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:43:12,570] INFO Server environment:os.name=Windows 10 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:43:12,570] INFO Server environment:os.arch=amd64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:43:12,571] INFO Server environment:os.version=10.0 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:43:12,571] INFO Server environment:user.name=Administrator (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:43:12,572] INFO Server environment:user.home=C:\Users\Administrator (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:43:12,572] INFO Server environment:user.dir=F:\kafka\bin\windows (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:43:12,573] INFO Server environment:os.memory.free=496MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:43:12,573] INFO Server environment:os.memory.max=512MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:43:12,573] INFO Server environment:os.memory.total=512MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:43:12,575] INFO minSessionTimeout set to 6000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:43:12,577] INFO maxSessionTimeout set to 60000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:43:12,578] INFO Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000 datadir \tmp\zookeeper\version-2 snapdir \tmp\zookeeper\version-2 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:43:12,595] INFO Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory (org.apache.zookeeper.server.ServerCnxnFactory)
+[2020-12-24 09:43:12,601] INFO Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 24 worker threads, and 64 kB direct buffers. (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2020-12-24 09:43:12,609] INFO binding to port 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2020-12-24 09:43:12,638] INFO zookeeper.snapshotSizeFactor = 0.33 (org.apache.zookeeper.server.ZKDatabase)
+[2020-12-24 09:43:12,648] INFO Reading snapshot \tmp\zookeeper\version-2\snapshot.12e (org.apache.zookeeper.server.persistence.FileSnap)
+[2020-12-24 09:43:12,671] INFO Snapshotting: 0x151 to \tmp\zookeeper\version-2\snapshot.151 (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2020-12-24 09:43:12,689] INFO Using checkIntervalMs=60000 maxPerMinute=10000 (org.apache.zookeeper.server.ContainerManager)
+[2020-12-24 09:43:45,372] INFO Registered kafka:type=kafka.Log4jController MBean (kafka.utils.Log4jControllerRegistration$)
+[2020-12-24 09:43:45,578] INFO starting (kafka.server.KafkaServer)
+[2020-12-24 09:43:45,578] INFO Connecting to zookeeper on localhost:2181 (kafka.server.KafkaServer)
+[2020-12-24 09:43:45,588] INFO [ZooKeeperClient Kafka server] Initializing a new session to localhost:2181. (kafka.zookeeper.ZooKeeperClient)
+[2020-12-24 09:43:45,593] INFO Client environment:zookeeper.version=3.5.7-f0fdd52973d373ffd9c86b81d99842dc2c7f660e, built on 02/10/2020 11:30 GMT (org.apache.zookeeper.ZooKeeper)
+[2020-12-24 09:43:45,593] INFO Client environment:host.name=liuxiao (org.apache.zookeeper.ZooKeeper)
+[2020-12-24 09:43:45,593] INFO Client environment:java.version=1.8.0_181 (org.apache.zookeeper.ZooKeeper)
+[2020-12-24 09:43:45,893] INFO Client environment:java.vendor=Oracle Corporation (org.apache.zookeeper.ZooKeeper)
+[2020-12-24 09:43:45,895] INFO Client environment:java.home=C:\Program Files\Java\jdk1.8.0_181\jre (org.apache.zookeeper.ZooKeeper)
+[2020-12-24 09:43:45,899] INFO Client environment:java.class.path=F:\kafka\libs\activation-1.1.1.jar;F:\kafka\libs\aopalliance-repackaged-2.5.0.jar;F:\kafka\libs\argparse4j-0.7.0.jar;F:\kafka\libs\audience-annotations-0.5.0.jar;F:\kafka\libs\commons-cli-1.4.jar;F:\kafka\libs\commons-lang3-3.8.1.jar;F:\kafka\libs\connect-api-2.4.1.jar;F:\kafka\libs\connect-basic-auth-extension-2.4.1.jar;F:\kafka\libs\connect-file-2.4.1.jar;F:\kafka\libs\connect-json-2.4.1.jar;F:\kafka\libs\connect-mirror-2.4.1.jar;F:\kafka\libs\connect-mirror-client-2.4.1.jar;F:\kafka\libs\connect-runtime-2.4.1.jar;F:\kafka\libs\connect-transforms-2.4.1.jar;F:\kafka\libs\guava-20.0.jar;F:\kafka\libs\hk2-api-2.5.0.jar;F:\kafka\libs\hk2-locator-2.5.0.jar;F:\kafka\libs\hk2-utils-2.5.0.jar;F:\kafka\libs\jackson-annotations-2.10.0.jar;F:\kafka\libs\jackson-core-2.10.0.jar;F:\kafka\libs\jackson-databind-2.10.0.jar;F:\kafka\libs\jackson-dataformat-csv-2.10.0.jar;F:\kafka\libs\jackson-datatype-jdk8-2.10.0.jar;F:\kafka\libs\jackson-jaxrs-base-2.10.0.jar;F:\kafka\libs\jackson-jaxrs-json-provider-2.10.0.jar;F:\kafka\libs\jackson-module-jaxb-annotations-2.10.0.jar;F:\kafka\libs\jackson-module-paranamer-2.10.0.jar;F:\kafka\libs\jackson-module-scala_2.11-2.10.0.jar;F:\kafka\libs\jakarta.activation-api-1.2.1.jar;F:\kafka\libs\jakarta.annotation-api-1.3.4.jar;F:\kafka\libs\jakarta.inject-2.5.0.jar;F:\kafka\libs\jakarta.ws.rs-api-2.1.5.jar;F:\kafka\libs\jakarta.xml.bind-api-2.3.2.jar;F:\kafka\libs\javassist-3.22.0-CR2.jar;F:\kafka\libs\javax.servlet-api-3.1.0.jar;F:\kafka\libs\javax.ws.rs-api-2.1.1.jar;F:\kafka\libs\jaxb-api-2.3.0.jar;F:\kafka\libs\jersey-client-2.28.jar;F:\kafka\libs\jersey-common-2.28.jar;F:\kafka\libs\jersey-container-servlet-2.28.jar;F:\kafka\libs\jersey-container-servlet-core-2.28.jar;F:\kafka\libs\jersey-hk2-2.28.jar;F:\kafka\libs\jersey-media-jaxb-2.28.jar;F:\kafka\libs\jersey-server-2.28.jar;F:\kafka\libs\jetty-client-9.4.20.v20190813.jar;F:\kafka\libs\jetty-continuation-9.4.20.v20190813.jar;F:\kafka\libs\jetty-http-9.4.20.v20190813.jar;F:\kafka\libs\jetty-io-9.4.20.v20190813.jar;F:\kafka\libs\jetty-security-9.4.20.v20190813.jar;F:\kafka\libs\jetty-server-9.4.20.v20190813.jar;F:\kafka\libs\jetty-servlet-9.4.20.v20190813.jar;F:\kafka\libs\jetty-servlets-9.4.20.v20190813.jar;F:\kafka\libs\jetty-util-9.4.20.v20190813.jar;F:\kafka\libs\jopt-simple-5.0.4.jar;F:\kafka\libs\kafka-clients-2.4.1.jar;F:\kafka\libs\kafka-log4j-appender-2.4.1.jar;F:\kafka\libs\kafka-streams-2.4.1.jar;F:\kafka\libs\kafka-streams-examples-2.4.1.jar;F:\kafka\libs\kafka-streams-scala_2.11-2.4.1.jar;F:\kafka\libs\kafka-streams-test-utils-2.4.1.jar;F:\kafka\libs\kafka-tools-2.4.1.jar;F:\kafka\libs\kafka_2.11-2.4.1-javadoc.jar;F:\kafka\libs\kafka_2.11-2.4.1-javadoc.jar.asc;F:\kafka\libs\kafka_2.11-2.4.1-scaladoc.jar;F:\kafka\libs\kafka_2.11-2.4.1-scaladoc.jar.asc;F:\kafka\libs\kafka_2.11-2.4.1-sources.jar;F:\kafka\libs\kafka_2.11-2.4.1-sources.jar.asc;F:\kafka\libs\kafka_2.11-2.4.1-test-sources.jar;F:\kafka\libs\kafka_2.11-2.4.1-test-sources.jar.asc;F:\kafka\libs\kafka_2.11-2.4.1-test.jar;F:\kafka\libs\kafka_2.11-2.4.1-test.jar.asc;F:\kafka\libs\kafka_2.11-2.4.1.jar;F:\kafka\libs\kafka_2.11-2.4.1.jar.asc;F:\kafka\libs\log4j-1.2.17.jar;F:\kafka\libs\lz4-java-1.6.0.jar;F:\kafka\libs\maven-artifact-3.6.1.jar;F:\kafka\libs\metrics-core-2.2.0.jar;F:\kafka\libs\netty-buffer-4.1.45.Final.jar;F:\kafka\libs\netty-codec-4.1.45.Final.jar;F:\kafka\libs\netty-common-4.1.45.Final.jar;F:\kafka\libs\netty-handler-4.1.45.Final.jar;F:\kafka\libs\netty-resolver-4.1.45.Final.jar;F:\kafka\libs\netty-transport-4.1.45.Final.jar;F:\kafka\libs\netty-transport-native-epoll-4.1.45.Final.jar;F:\kafka\libs\netty-transport-native-unix-common-4.1.45.Final.jar;F:\kafka\libs\osgi-resource-locator-1.0.1.jar;F:\kafka\libs\paranamer-2.8.jar;F:\kafka\libs\plexus-utils-3.2.0.jar;F:\kafka\libs\reflections-0.9.11.jar;F:\kafka\libs\rocksdbjni-5.18.3.jar;F:\kafka\libs\scala-collection-compat_2.11-2.1.2.jar;F:\kafka\libs\scala-java8-compat_2.11-0.9.0.jar;F:\kafka\libs\scala-library-2.11.12.jar;F:\kafka\libs\scala-logging_2.11-3.9.2.jar;F:\kafka\libs\scala-reflect-2.11.12.jar;F:\kafka\libs\slf4j-api-1.7.28.jar;F:\kafka\libs\slf4j-log4j12-1.7.28.jar;F:\kafka\libs\snappy-java-1.1.7.3.jar;F:\kafka\libs\validation-api-2.0.1.Final.jar;F:\kafka\libs\zookeeper-3.5.7.jar;F:\kafka\libs\zookeeper-jute-3.5.7.jar;F:\kafka\libs\zstd-jni-1.4.3-1.jar (org.apache.zookeeper.ZooKeeper)
+[2020-12-24 09:43:45,904] INFO Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files\nodejs\;E:\Program Files (x86)\scala\bin;%SPARK_HOME%\bin;%SPARK_HOME%\sbin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Go\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;E:\soft\netcat\netcat-win32-1.11\netcat-1.11;C:\Program Files\Java\jdk1.8.0_181\bin;E:\mingw\mingw64\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\go\bin;C:\Program Files\Git\bin;C:\Program Files\Git\mingw64\libexec\git-core;C:\Program Files\Git\mingw64\bin;;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;. (org.apache.zookeeper.ZooKeeper)
+[2020-12-24 09:43:45,914] INFO Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\ (org.apache.zookeeper.ZooKeeper)
+[2020-12-24 09:43:45,914] INFO Client environment:java.compiler=<NA> (org.apache.zookeeper.ZooKeeper)
+[2020-12-24 09:43:45,918] INFO Client environment:os.name=Windows 10 (org.apache.zookeeper.ZooKeeper)
+[2020-12-24 09:43:45,922] INFO Client environment:os.arch=amd64 (org.apache.zookeeper.ZooKeeper)
+[2020-12-24 09:43:45,923] INFO Client environment:os.version=10.0 (org.apache.zookeeper.ZooKeeper)
+[2020-12-24 09:43:45,923] INFO Client environment:user.name=Administrator (org.apache.zookeeper.ZooKeeper)
+[2020-12-24 09:43:45,924] INFO Client environment:user.home=C:\Users\Administrator (org.apache.zookeeper.ZooKeeper)
+[2020-12-24 09:43:45,924] INFO Client environment:user.dir=F:\kafka\bin\windows (org.apache.zookeeper.ZooKeeper)
+[2020-12-24 09:43:45,925] INFO Client environment:os.memory.free=974MB (org.apache.zookeeper.ZooKeeper)
+[2020-12-24 09:43:45,925] INFO Client environment:os.memory.max=1024MB (org.apache.zookeeper.ZooKeeper)
+[2020-12-24 09:43:45,926] INFO Client environment:os.memory.total=1024MB (org.apache.zookeeper.ZooKeeper)
+[2020-12-24 09:43:45,928] INFO Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=kafka.zookeeper.ZooKeeperClient$ZooKeeperClientWatcher$@7c7a06ec (org.apache.zookeeper.ZooKeeper)
+[2020-12-24 09:43:45,932] INFO Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation (org.apache.zookeeper.common.X509Util)
+[2020-12-24 09:43:45,948] INFO jute.maxbuffer value is 4194304 Bytes (org.apache.zookeeper.ClientCnxnSocket)
+[2020-12-24 09:43:45,953] INFO zookeeper.request.timeout value is 0. feature enabled= (org.apache.zookeeper.ClientCnxn)
+[2020-12-24 09:43:45,954] INFO [ZooKeeperClient Kafka server] Waiting until connected. (kafka.zookeeper.ZooKeeperClient)
+[2020-12-24 09:43:45,960] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2020-12-24 09:43:45,961] INFO Socket connection established, initiating session, client: /127.0.0.1:50925, server: localhost/127.0.0.1:2181 (org.apache.zookeeper.ClientCnxn)
+[2020-12-24 09:43:45,967] INFO Creating new log file: log.152 (org.apache.zookeeper.server.persistence.FileTxnLog)
+[2020-12-24 09:43:45,967] ERROR Severe unrecoverable error, from thread : SyncThread:0 (org.apache.zookeeper.server.ZooKeeperCriticalThread)
+java.io.FileNotFoundException: \tmp\zookeeper\version-2\log.152 (系统找不到指定的路径。)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.apache.zookeeper.server.persistence.FileTxnLog.append(FileTxnLog.java:222)
+	at org.apache.zookeeper.server.persistence.FileTxnSnapLog.append(FileTxnSnapLog.java:485)
+	at org.apache.zookeeper.server.ZKDatabase.append(ZKDatabase.java:572)
+	at org.apache.zookeeper.server.SyncRequestProcessor.run(SyncRequestProcessor.java:122)
+[2020-12-24 09:43:45,987] INFO Thread SyncThread:0 exits, error code 1 (org.apache.zookeeper.server.ZooKeeperServerListenerImpl)
+[2020-12-24 09:43:46,009] INFO Unable to read additional data from server sessionid 0x0, likely server has closed socket, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2020-12-24 09:43:46,008] INFO SyncRequestProcessor exited! (org.apache.zookeeper.server.SyncRequestProcessor)
+[2020-12-24 09:43:46,009] INFO selector thread exitted run method (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2020-12-24 09:43:46,009] INFO selector thread exitted run method (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2020-12-24 09:43:46,008] INFO accept thread exitted run method (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2020-12-24 09:43:46,008] INFO ConnnectionExpirerThread interrupted (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2020-12-24 09:43:46,019] INFO shutting down (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:43:46,020] INFO Shutting down (org.apache.zookeeper.server.SessionTrackerImpl)
+[2020-12-24 09:43:46,021] INFO Shutting down (org.apache.zookeeper.server.PrepRequestProcessor)
+[2020-12-24 09:43:46,021] INFO Shutting down (org.apache.zookeeper.server.SyncRequestProcessor)
+[2020-12-24 09:43:46,021] INFO PrepRequestProcessor exited loop! (org.apache.zookeeper.server.PrepRequestProcessor)
+[2020-12-24 09:43:46,021] INFO shutdown of request processor complete (org.apache.zookeeper.server.FinalRequestProcessor)
+[2020-12-24 09:43:46,023] INFO Exiting normally (org.apache.zookeeper.server.ZooKeeperServerMain)
+[2020-12-24 09:43:47,911] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2020-12-24 09:43:48,913] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused: no further information (org.apache.zookeeper.ClientCnxn)
+[2020-12-24 09:43:50,887] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2020-12-24 09:43:51,889] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused: no further information (org.apache.zookeeper.ClientCnxn)
+[2020-12-24 09:43:51,959] INFO [ZooKeeperClient Kafka server] Closing. (kafka.zookeeper.ZooKeeperClient)
+[2020-12-24 09:43:53,398] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2020-12-24 09:43:54,503] INFO Session: 0x0 closed (org.apache.zookeeper.ZooKeeper)
+[2020-12-24 09:43:54,503] INFO EventThread shut down for session: 0x0 (org.apache.zookeeper.ClientCnxn)
+[2020-12-24 09:43:54,504] INFO [ZooKeeperClient Kafka server] Closed. (kafka.zookeeper.ZooKeeperClient)
+[2020-12-24 09:43:54,516] ERROR Fatal error during KafkaServer startup. Prepare to shutdown (kafka.server.KafkaServer)
+kafka.zookeeper.ZooKeeperClientTimeoutException: Timed out waiting for connection while in state: CONNECTING
+	at kafka.zookeeper.ZooKeeperClient$$anonfun$kafka$zookeeper$ZooKeeperClient$$waitUntilConnected$1.apply$mcV$sp(ZooKeeperClient.scala:259)
+	at kafka.zookeeper.ZooKeeperClient$$anonfun$kafka$zookeeper$ZooKeeperClient$$waitUntilConnected$1.apply(ZooKeeperClient.scala:255)
+	at kafka.zookeeper.ZooKeeperClient$$anonfun$kafka$zookeeper$ZooKeeperClient$$waitUntilConnected$1.apply(ZooKeeperClient.scala:255)
+	at kafka.utils.CoreUtils$.inLock(CoreUtils.scala:253)
+	at kafka.zookeeper.ZooKeeperClient.kafka$zookeeper$ZooKeeperClient$$waitUntilConnected(ZooKeeperClient.scala:255)
+	at kafka.zookeeper.ZooKeeperClient.<init>(ZooKeeperClient.scala:113)
+	at kafka.zk.KafkaZkClient$.apply(KafkaZkClient.scala:1857)
+	at kafka.server.KafkaServer.kafka$server$KafkaServer$$createZkClient$1(KafkaServer.scala:374)
+	at kafka.server.KafkaServer.initZkClient(KafkaServer.scala:399)
+	at kafka.server.KafkaServer.startup(KafkaServer.scala:207)
+	at kafka.server.KafkaServerStartable.startup(KafkaServerStartable.scala:44)
+	at kafka.Kafka$.main(Kafka.scala:84)
+	at kafka.Kafka.main(Kafka.scala)
+[2020-12-24 09:43:54,519] INFO shutting down (kafka.server.KafkaServer)
+[2020-12-24 09:43:54,521] INFO shut down completed (kafka.server.KafkaServer)
+[2020-12-24 09:43:54,522] ERROR Exiting Kafka. (kafka.server.KafkaServerStartable)
+[2020-12-24 09:43:54,525] INFO shutting down (kafka.server.KafkaServer)
+[2020-12-24 09:44:16,060] INFO Reading configuration from: ..\..\config\zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-12-24 09:44:16,061] WARN ..\..\config\zookeeper.properties is relative. Prepend .\ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-12-24 09:44:16,061] WARN \tmp\zookeeper is relative. Prepend .\ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-12-24 09:44:16,066] INFO clientPortAddress is 0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-12-24 09:44:16,066] INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-12-24 09:44:16,068] INFO autopurge.snapRetainCount set to 3 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2020-12-24 09:44:16,068] INFO autopurge.purgeInterval set to 0 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2020-12-24 09:44:16,068] INFO Purge task is not scheduled. (org.apache.zookeeper.server.DatadirCleanupManager)
+[2020-12-24 09:44:16,068] WARN Either no config or no quorum defined in config, running  in standalone mode (org.apache.zookeeper.server.quorum.QuorumPeerMain)
+[2020-12-24 09:44:16,069] INFO Log4j found with jmx enabled. (org.apache.zookeeper.jmx.ManagedUtil)
+[2020-12-24 09:44:16,078] INFO Reading configuration from: ..\..\config\zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-12-24 09:44:16,078] WARN ..\..\config\zookeeper.properties is relative. Prepend .\ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-12-24 09:44:16,078] WARN \tmp\zookeeper is relative. Prepend .\ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-12-24 09:44:16,346] INFO clientPortAddress is 0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-12-24 09:44:16,355] INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-12-24 09:44:16,356] INFO Starting server (org.apache.zookeeper.server.ZooKeeperServerMain)
+[2020-12-24 09:44:16,362] INFO zookeeper.snapshot.trust.empty : false (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2020-12-24 09:44:16,777] INFO Server environment:zookeeper.version=3.5.7-f0fdd52973d373ffd9c86b81d99842dc2c7f660e, built on 02/10/2020 11:30 GMT (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:44:16,778] INFO Server environment:host.name=liuxiao (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:44:16,782] INFO Server environment:java.version=1.8.0_181 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:44:16,783] INFO Server environment:java.vendor=Oracle Corporation (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:44:16,783] INFO Server environment:java.home=C:\Program Files\Java\jdk1.8.0_181\jre (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:44:16,784] INFO Server environment:java.class.path=F:\kafka\libs\activation-1.1.1.jar;F:\kafka\libs\aopalliance-repackaged-2.5.0.jar;F:\kafka\libs\argparse4j-0.7.0.jar;F:\kafka\libs\audience-annotations-0.5.0.jar;F:\kafka\libs\commons-cli-1.4.jar;F:\kafka\libs\commons-lang3-3.8.1.jar;F:\kafka\libs\connect-api-2.4.1.jar;F:\kafka\libs\connect-basic-auth-extension-2.4.1.jar;F:\kafka\libs\connect-file-2.4.1.jar;F:\kafka\libs\connect-json-2.4.1.jar;F:\kafka\libs\connect-mirror-2.4.1.jar;F:\kafka\libs\connect-mirror-client-2.4.1.jar;F:\kafka\libs\connect-runtime-2.4.1.jar;F:\kafka\libs\connect-transforms-2.4.1.jar;F:\kafka\libs\guava-20.0.jar;F:\kafka\libs\hk2-api-2.5.0.jar;F:\kafka\libs\hk2-locator-2.5.0.jar;F:\kafka\libs\hk2-utils-2.5.0.jar;F:\kafka\libs\jackson-annotations-2.10.0.jar;F:\kafka\libs\jackson-core-2.10.0.jar;F:\kafka\libs\jackson-databind-2.10.0.jar;F:\kafka\libs\jackson-dataformat-csv-2.10.0.jar;F:\kafka\libs\jackson-datatype-jdk8-2.10.0.jar;F:\kafka\libs\jackson-jaxrs-base-2.10.0.jar;F:\kafka\libs\jackson-jaxrs-json-provider-2.10.0.jar;F:\kafka\libs\jackson-module-jaxb-annotations-2.10.0.jar;F:\kafka\libs\jackson-module-paranamer-2.10.0.jar;F:\kafka\libs\jackson-module-scala_2.11-2.10.0.jar;F:\kafka\libs\jakarta.activation-api-1.2.1.jar;F:\kafka\libs\jakarta.annotation-api-1.3.4.jar;F:\kafka\libs\jakarta.inject-2.5.0.jar;F:\kafka\libs\jakarta.ws.rs-api-2.1.5.jar;F:\kafka\libs\jakarta.xml.bind-api-2.3.2.jar;F:\kafka\libs\javassist-3.22.0-CR2.jar;F:\kafka\libs\javax.servlet-api-3.1.0.jar;F:\kafka\libs\javax.ws.rs-api-2.1.1.jar;F:\kafka\libs\jaxb-api-2.3.0.jar;F:\kafka\libs\jersey-client-2.28.jar;F:\kafka\libs\jersey-common-2.28.jar;F:\kafka\libs\jersey-container-servlet-2.28.jar;F:\kafka\libs\jersey-container-servlet-core-2.28.jar;F:\kafka\libs\jersey-hk2-2.28.jar;F:\kafka\libs\jersey-media-jaxb-2.28.jar;F:\kafka\libs\jersey-server-2.28.jar;F:\kafka\libs\jetty-client-9.4.20.v20190813.jar;F:\kafka\libs\jetty-continuation-9.4.20.v20190813.jar;F:\kafka\libs\jetty-http-9.4.20.v20190813.jar;F:\kafka\libs\jetty-io-9.4.20.v20190813.jar;F:\kafka\libs\jetty-security-9.4.20.v20190813.jar;F:\kafka\libs\jetty-server-9.4.20.v20190813.jar;F:\kafka\libs\jetty-servlet-9.4.20.v20190813.jar;F:\kafka\libs\jetty-servlets-9.4.20.v20190813.jar;F:\kafka\libs\jetty-util-9.4.20.v20190813.jar;F:\kafka\libs\jopt-simple-5.0.4.jar;F:\kafka\libs\kafka-clients-2.4.1.jar;F:\kafka\libs\kafka-log4j-appender-2.4.1.jar;F:\kafka\libs\kafka-streams-2.4.1.jar;F:\kafka\libs\kafka-streams-examples-2.4.1.jar;F:\kafka\libs\kafka-streams-scala_2.11-2.4.1.jar;F:\kafka\libs\kafka-streams-test-utils-2.4.1.jar;F:\kafka\libs\kafka-tools-2.4.1.jar;F:\kafka\libs\kafka_2.11-2.4.1-javadoc.jar;F:\kafka\libs\kafka_2.11-2.4.1-javadoc.jar.asc;F:\kafka\libs\kafka_2.11-2.4.1-scaladoc.jar;F:\kafka\libs\kafka_2.11-2.4.1-scaladoc.jar.asc;F:\kafka\libs\kafka_2.11-2.4.1-sources.jar;F:\kafka\libs\kafka_2.11-2.4.1-sources.jar.asc;F:\kafka\libs\kafka_2.11-2.4.1-test-sources.jar;F:\kafka\libs\kafka_2.11-2.4.1-test-sources.jar.asc;F:\kafka\libs\kafka_2.11-2.4.1-test.jar;F:\kafka\libs\kafka_2.11-2.4.1-test.jar.asc;F:\kafka\libs\kafka_2.11-2.4.1.jar;F:\kafka\libs\kafka_2.11-2.4.1.jar.asc;F:\kafka\libs\log4j-1.2.17.jar;F:\kafka\libs\lz4-java-1.6.0.jar;F:\kafka\libs\maven-artifact-3.6.1.jar;F:\kafka\libs\metrics-core-2.2.0.jar;F:\kafka\libs\netty-buffer-4.1.45.Final.jar;F:\kafka\libs\netty-codec-4.1.45.Final.jar;F:\kafka\libs\netty-common-4.1.45.Final.jar;F:\kafka\libs\netty-handler-4.1.45.Final.jar;F:\kafka\libs\netty-resolver-4.1.45.Final.jar;F:\kafka\libs\netty-transport-4.1.45.Final.jar;F:\kafka\libs\netty-transport-native-epoll-4.1.45.Final.jar;F:\kafka\libs\netty-transport-native-unix-common-4.1.45.Final.jar;F:\kafka\libs\osgi-resource-locator-1.0.1.jar;F:\kafka\libs\paranamer-2.8.jar;F:\kafka\libs\plexus-utils-3.2.0.jar;F:\kafka\libs\reflections-0.9.11.jar;F:\kafka\libs\rocksdbjni-5.18.3.jar;F:\kafka\libs\scala-collection-compat_2.11-2.1.2.jar;F:\kafka\libs\scala-java8-compat_2.11-0.9.0.jar;F:\kafka\libs\scala-library-2.11.12.jar;F:\kafka\libs\scala-logging_2.11-3.9.2.jar;F:\kafka\libs\scala-reflect-2.11.12.jar;F:\kafka\libs\slf4j-api-1.7.28.jar;F:\kafka\libs\slf4j-log4j12-1.7.28.jar;F:\kafka\libs\snappy-java-1.1.7.3.jar;F:\kafka\libs\validation-api-2.0.1.Final.jar;F:\kafka\libs\zookeeper-3.5.7.jar;F:\kafka\libs\zookeeper-jute-3.5.7.jar;F:\kafka\libs\zstd-jni-1.4.3-1.jar (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:44:16,788] INFO Server environment:java.library.path=C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files\nodejs\;E:\Program Files (x86)\scala\bin;%SPARK_HOME%\bin;%SPARK_HOME%\sbin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Go\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;E:\soft\netcat\netcat-win32-1.11\netcat-1.11;C:\Program Files\Java\jdk1.8.0_181\bin;E:\mingw\mingw64\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\go\bin;C:\Program Files\Git\bin;C:\Program Files\Git\mingw64\libexec\git-core;C:\Program Files\Git\mingw64\bin;;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;. (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:44:16,791] INFO Server environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\ (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:44:16,792] INFO Server environment:java.compiler=<NA> (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:44:16,793] INFO Server environment:os.name=Windows 10 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:44:16,793] INFO Server environment:os.arch=amd64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:44:16,794] INFO Server environment:os.version=10.0 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:44:16,794] INFO Server environment:user.name=Administrator (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:44:16,794] INFO Server environment:user.home=C:\Users\Administrator (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:44:16,795] INFO Server environment:user.dir=F:\kafka\bin\windows (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:44:16,795] INFO Server environment:os.memory.free=496MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:44:16,796] INFO Server environment:os.memory.max=512MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:44:16,796] INFO Server environment:os.memory.total=512MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:44:16,798] INFO minSessionTimeout set to 6000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:44:16,798] INFO maxSessionTimeout set to 60000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:44:16,799] INFO Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000 datadir \tmp\zookeeper\version-2 snapdir \tmp\zookeeper\version-2 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-12-24 09:44:16,816] INFO Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory (org.apache.zookeeper.server.ServerCnxnFactory)
+[2020-12-24 09:44:16,822] INFO Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 24 worker threads, and 64 kB direct buffers. (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2020-12-24 09:44:16,824] INFO binding to port 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2020-12-24 09:44:16,840] INFO zookeeper.snapshotSizeFactor = 0.33 (org.apache.zookeeper.server.ZKDatabase)
+[2020-12-24 09:44:16,844] INFO Snapshotting: 0x0 to \tmp\zookeeper\version-2\snapshot.0 (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2020-12-24 09:44:16,846] INFO Snapshotting: 0x0 to \tmp\zookeeper\version-2\snapshot.0 (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2020-12-24 09:44:16,865] INFO Using checkIntervalMs=60000 maxPerMinute=10000 (org.apache.zookeeper.server.ContainerManager)
+[2020-12-24 09:44:38,101] INFO Registered kafka:type=kafka.Log4jController MBean (kafka.utils.Log4jControllerRegistration$)
+[2020-12-24 09:44:38,305] INFO starting (kafka.server.KafkaServer)
+[2020-12-24 09:44:38,306] INFO Connecting to zookeeper on localhost:2181 (kafka.server.KafkaServer)
+[2020-12-24 09:44:38,316] INFO [ZooKeeperClient Kafka server] Initializing a new session to localhost:2181. (kafka.zookeeper.ZooKeeperClient)
+[2020-12-24 09:44:38,321] INFO Client environment:zookeeper.version=3.5.7-f0fdd52973d373ffd9c86b81d99842dc2c7f660e, built on 02/10/2020 11:30 GMT (org.apache.zookeeper.ZooKeeper)
+[2020-12-24 09:44:38,321] INFO Client environment:host.name=liuxiao (org.apache.zookeeper.ZooKeeper)
+[2020-12-24 09:44:38,321] INFO Client environment:java.version=1.8.0_181 (org.apache.zookeeper.ZooKeeper)
+[2020-12-24 09:44:38,321] INFO Client environment:java.vendor=Oracle Corporation (org.apache.zookeeper.ZooKeeper)
+[2020-12-24 09:44:38,321] INFO Client environment:java.home=C:\Program Files\Java\jdk1.8.0_181\jre (org.apache.zookeeper.ZooKeeper)
+[2020-12-24 09:44:38,322] INFO Client environment:java.class.path=F:\kafka\libs\activation-1.1.1.jar;F:\kafka\libs\aopalliance-repackaged-2.5.0.jar;F:\kafka\libs\argparse4j-0.7.0.jar;F:\kafka\libs\audience-annotations-0.5.0.jar;F:\kafka\libs\commons-cli-1.4.jar;F:\kafka\libs\commons-lang3-3.8.1.jar;F:\kafka\libs\connect-api-2.4.1.jar;F:\kafka\libs\connect-basic-auth-extension-2.4.1.jar;F:\kafka\libs\connect-file-2.4.1.jar;F:\kafka\libs\connect-json-2.4.1.jar;F:\kafka\libs\connect-mirror-2.4.1.jar;F:\kafka\libs\connect-mirror-client-2.4.1.jar;F:\kafka\libs\connect-runtime-2.4.1.jar;F:\kafka\libs\connect-transforms-2.4.1.jar;F:\kafka\libs\guava-20.0.jar;F:\kafka\libs\hk2-api-2.5.0.jar;F:\kafka\libs\hk2-locator-2.5.0.jar;F:\kafka\libs\hk2-utils-2.5.0.jar;F:\kafka\libs\jackson-annotations-2.10.0.jar;F:\kafka\libs\jackson-core-2.10.0.jar;F:\kafka\libs\jackson-databind-2.10.0.jar;F:\kafka\libs\jackson-dataformat-csv-2.10.0.jar;F:\kafka\libs\jackson-datatype-jdk8-2.10.0.jar;F:\kafka\libs\jackson-jaxrs-base-2.10.0.jar;F:\kafka\libs\jackson-jaxrs-json-provider-2.10.0.jar;F:\kafka\libs\jackson-module-jaxb-annotations-2.10.0.jar;F:\kafka\libs\jackson-module-paranamer-2.10.0.jar;F:\kafka\libs\jackson-module-scala_2.11-2.10.0.jar;F:\kafka\libs\jakarta.activation-api-1.2.1.jar;F:\kafka\libs\jakarta.annotation-api-1.3.4.jar;F:\kafka\libs\jakarta.inject-2.5.0.jar;F:\kafka\libs\jakarta.ws.rs-api-2.1.5.jar;F:\kafka\libs\jakarta.xml.bind-api-2.3.2.jar;F:\kafka\libs\javassist-3.22.0-CR2.jar;F:\kafka\libs\javax.servlet-api-3.1.0.jar;F:\kafka\libs\javax.ws.rs-api-2.1.1.jar;F:\kafka\libs\jaxb-api-2.3.0.jar;F:\kafka\libs\jersey-client-2.28.jar;F:\kafka\libs\jersey-common-2.28.jar;F:\kafka\libs\jersey-container-servlet-2.28.jar;F:\kafka\libs\jersey-container-servlet-core-2.28.jar;F:\kafka\libs\jersey-hk2-2.28.jar;F:\kafka\libs\jersey-media-jaxb-2.28.jar;F:\kafka\libs\jersey-server-2.28.jar;F:\kafka\libs\jetty-client-9.4.20.v20190813.jar;F:\kafka\libs\jetty-continuation-9.4.20.v20190813.jar;F:\kafka\libs\jetty-http-9.4.20.v20190813.jar;F:\kafka\libs\jetty-io-9.4.20.v20190813.jar;F:\kafka\libs\jetty-security-9.4.20.v20190813.jar;F:\kafka\libs\jetty-server-9.4.20.v20190813.jar;F:\kafka\libs\jetty-servlet-9.4.20.v20190813.jar;F:\kafka\libs\jetty-servlets-9.4.20.v20190813.jar;F:\kafka\libs\jetty-util-9.4.20.v20190813.jar;F:\kafka\libs\jopt-simple-5.0.4.jar;F:\kafka\libs\kafka-clients-2.4.1.jar;F:\kafka\libs\kafka-log4j-appender-2.4.1.jar;F:\kafka\libs\kafka-streams-2.4.1.jar;F:\kafka\libs\kafka-streams-examples-2.4.1.jar;F:\kafka\libs\kafka-streams-scala_2.11-2.4.1.jar;F:\kafka\libs\kafka-streams-test-utils-2.4.1.jar;F:\kafka\libs\kafka-tools-2.4.1.jar;F:\kafka\libs\kafka_2.11-2.4.1-javadoc.jar;F:\kafka\libs\kafka_2.11-2.4.1-javadoc.jar.asc;F:\kafka\libs\kafka_2.11-2.4.1-scaladoc.jar;F:\kafka\libs\kafka_2.11-2.4.1-scaladoc.jar.asc;F:\kafka\libs\kafka_2.11-2.4.1-sources.jar;F:\kafka\libs\kafka_2.11-2.4.1-sources.jar.asc;F:\kafka\libs\kafka_2.11-2.4.1-test-sources.jar;F:\kafka\libs\kafka_2.11-2.4.1-test-sources.jar.asc;F:\kafka\libs\kafka_2.11-2.4.1-test.jar;F:\kafka\libs\kafka_2.11-2.4.1-test.jar.asc;F:\kafka\libs\kafka_2.11-2.4.1.jar;F:\kafka\libs\kafka_2.11-2.4.1.jar.asc;F:\kafka\libs\log4j-1.2.17.jar;F:\kafka\libs\lz4-java-1.6.0.jar;F:\kafka\libs\maven-artifact-3.6.1.jar;F:\kafka\libs\metrics-core-2.2.0.jar;F:\kafka\libs\netty-buffer-4.1.45.Final.jar;F:\kafka\libs\netty-codec-4.1.45.Final.jar;F:\kafka\libs\netty-common-4.1.45.Final.jar;F:\kafka\libs\netty-handler-4.1.45.Final.jar;F:\kafka\libs\netty-resolver-4.1.45.Final.jar;F:\kafka\libs\netty-transport-4.1.45.Final.jar;F:\kafka\libs\netty-transport-native-epoll-4.1.45.Final.jar;F:\kafka\libs\netty-transport-native-unix-common-4.1.45.Final.jar;F:\kafka\libs\osgi-resource-locator-1.0.1.jar;F:\kafka\libs\paranamer-2.8.jar;F:\kafka\libs\plexus-utils-3.2.0.jar;F:\kafka\libs\reflections-0.9.11.jar;F:\kafka\libs\rocksdbjni-5.18.3.jar;F:\kafka\libs\scala-collection-compat_2.11-2.1.2.jar;F:\kafka\libs\scala-java8-compat_2.11-0.9.0.jar;F:\kafka\libs\scala-library-2.11.12.jar;F:\kafka\libs\scala-logging_2.11-3.9.2.jar;F:\kafka\libs\scala-reflect-2.11.12.jar;F:\kafka\libs\slf4j-api-1.7.28.jar;F:\kafka\libs\slf4j-log4j12-1.7.28.jar;F:\kafka\libs\snappy-java-1.1.7.3.jar;F:\kafka\libs\validation-api-2.0.1.Final.jar;F:\kafka\libs\zookeeper-3.5.7.jar;F:\kafka\libs\zookeeper-jute-3.5.7.jar;F:\kafka\libs\zstd-jni-1.4.3-1.jar (org.apache.zookeeper.ZooKeeper)
+[2020-12-24 09:44:38,326] INFO Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files\nodejs\;E:\Program Files (x86)\scala\bin;%SPARK_HOME%\bin;%SPARK_HOME%\sbin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Go\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;E:\soft\netcat\netcat-win32-1.11\netcat-1.11;C:\Program Files\Java\jdk1.8.0_181\bin;E:\mingw\mingw64\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\go\bin;C:\Program Files\Git\bin;C:\Program Files\Git\mingw64\libexec\git-core;C:\Program Files\Git\mingw64\bin;;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;. (org.apache.zookeeper.ZooKeeper)
+[2020-12-24 09:44:38,473] INFO Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\ (org.apache.zookeeper.ZooKeeper)
+[2020-12-24 09:44:38,473] INFO Client environment:java.compiler=<NA> (org.apache.zookeeper.ZooKeeper)
+[2020-12-24 09:44:38,474] INFO Client environment:os.name=Windows 10 (org.apache.zookeeper.ZooKeeper)
+[2020-12-24 09:44:38,474] INFO Client environment:os.arch=amd64 (org.apache.zookeeper.ZooKeeper)
+[2020-12-24 09:44:38,475] INFO Client environment:os.version=10.0 (org.apache.zookeeper.ZooKeeper)
+[2020-12-24 09:44:38,475] INFO Client environment:user.name=Administrator (org.apache.zookeeper.ZooKeeper)
+[2020-12-24 09:44:38,476] INFO Client environment:user.home=C:\Users\Administrator (org.apache.zookeeper.ZooKeeper)
+[2020-12-24 09:44:38,476] INFO Client environment:user.dir=F:\kafka\bin\windows (org.apache.zookeeper.ZooKeeper)
+[2020-12-24 09:44:38,477] INFO Client environment:os.memory.free=974MB (org.apache.zookeeper.ZooKeeper)
+[2020-12-24 09:44:38,477] INFO Client environment:os.memory.max=1024MB (org.apache.zookeeper.ZooKeeper)
+[2020-12-24 09:44:38,483] INFO Client environment:os.memory.total=1024MB (org.apache.zookeeper.ZooKeeper)
+[2020-12-24 09:44:38,491] INFO Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=kafka.zookeeper.ZooKeeperClient$ZooKeeperClientWatcher$@7c7a06ec (org.apache.zookeeper.ZooKeeper)
+[2020-12-24 09:44:38,495] INFO Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation (org.apache.zookeeper.common.X509Util)
+[2020-12-24 09:44:38,513] INFO jute.maxbuffer value is 4194304 Bytes (org.apache.zookeeper.ClientCnxnSocket)
+[2020-12-24 09:44:38,518] INFO zookeeper.request.timeout value is 0. feature enabled= (org.apache.zookeeper.ClientCnxn)
+[2020-12-24 09:44:38,530] INFO [ZooKeeperClient Kafka server] Waiting until connected. (kafka.zookeeper.ZooKeeperClient)
+[2020-12-24 09:44:38,536] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2020-12-24 09:44:38,537] INFO Socket connection established, initiating session, client: /127.0.0.1:50950, server: localhost/127.0.0.1:2181 (org.apache.zookeeper.ClientCnxn)
+[2020-12-24 09:44:38,544] INFO Creating new log file: log.1 (org.apache.zookeeper.server.persistence.FileTxnLog)
+[2020-12-24 09:44:38,578] INFO Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x1000019fc0a0000, negotiated timeout = 6000 (org.apache.zookeeper.ClientCnxn)
+[2020-12-24 09:44:38,581] INFO [ZooKeeperClient Kafka server] Connected. (kafka.zookeeper.ZooKeeperClient)
+[2020-12-24 09:44:38,951] INFO Cluster ID = 7mVVfzW-RRKUd4sDnb_P5w (kafka.server.KafkaServer)
+[2020-12-24 09:44:38,954] WARN No meta.properties file under dir F:\tmp\kafka-logs\meta.properties (kafka.server.BrokerMetadataCheckpoint)
+[2020-12-24 09:44:38,983] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	client.quota.callback.class = null
+	compression.type = producer
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	connections.max.reauth.ms = 0
+	control.plane.listener.name = null
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 1800000
+	group.max.size = 2147483647
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 2.4-IV1
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = null
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.max.compaction.lag.ms = 9223372036854775807
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.downconversion.enable = true
+	log.message.format.version = 2.4-IV1
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections = 2147483647
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.selector.class = null
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	sasl.server.callback.handler.class = null
+	security.inter.broker.protocol = PLAINTEXT
+	security.providers = null
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.principal.mapping.rules = DEFAULT
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 60000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2020-12-24 09:44:38,999] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	client.quota.callback.class = null
+	compression.type = producer
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	connections.max.reauth.ms = 0
+	control.plane.listener.name = null
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 1800000
+	group.max.size = 2147483647
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 2.4-IV1
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = null
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.max.compaction.lag.ms = 9223372036854775807
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.downconversion.enable = true
+	log.message.format.version = 2.4-IV1
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections = 2147483647
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.selector.class = null
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	sasl.server.callback.handler.class = null
+	security.inter.broker.protocol = PLAINTEXT
+	security.providers = null
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.principal.mapping.rules = DEFAULT
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 60000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2020-12-24 09:44:39,024] INFO [ThrottledChannelReaper-Fetch]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2020-12-24 09:44:39,024] INFO [ThrottledChannelReaper-Produce]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2020-12-24 09:44:39,026] INFO [ThrottledChannelReaper-Request]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2020-12-24 09:44:39,038] INFO Log directory F:\tmp\kafka-logs not found, creating it. (kafka.log.LogManager)
+[2020-12-24 09:44:39,048] INFO Loading logs. (kafka.log.LogManager)
+[2020-12-24 09:44:39,052] INFO Logs loading complete in 4 ms. (kafka.log.LogManager)
+[2020-12-24 09:44:39,060] INFO Starting log cleanup with a period of 300000 ms. (kafka.log.LogManager)
+[2020-12-24 09:44:39,061] INFO Starting log flusher with a default period of 9223372036854775807 ms. (kafka.log.LogManager)
+[2020-12-24 09:44:39,317] INFO Awaiting socket connections on 0.0.0.0:9092. (kafka.network.Acceptor)
+[2020-12-24 09:44:39,337] INFO [SocketServer brokerId=0] Created data-plane acceptor and processors for endpoint : EndPoint(null,9092,ListenerName(PLAINTEXT),PLAINTEXT) (kafka.network.SocketServer)
+[2020-12-24 09:44:39,338] INFO [SocketServer brokerId=0] Started 1 acceptor threads for data-plane (kafka.network.SocketServer)
+[2020-12-24 09:44:39,349] INFO [ExpirationReaper-0-Produce]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2020-12-24 09:44:39,349] INFO [ExpirationReaper-0-Fetch]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2020-12-24 09:44:39,361] INFO [ExpirationReaper-0-DeleteRecords]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2020-12-24 09:44:39,362] INFO [ExpirationReaper-0-ElectLeader]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2020-12-24 09:44:39,367] INFO [LogDirFailureHandler]: Starting (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2020-12-24 09:44:39,377] INFO Creating /brokers/ids/0 (is it secure? false) (kafka.zk.KafkaZkClient)
+[2020-12-24 09:44:39,406] INFO Stat of the created znode at /brokers/ids/0 is: 24,24,1608774279387,1608774279387,1,0,0,72057705640624128,184,0,24
+ (kafka.zk.KafkaZkClient)
+[2020-12-24 09:44:39,406] INFO Registered broker 0 at path /brokers/ids/0 with addresses: ArrayBuffer(EndPoint(liuxiao,9092,ListenerName(PLAINTEXT),PLAINTEXT)), czxid (broker epoch): 24 (kafka.zk.KafkaZkClient)
+[2020-12-24 09:44:39,473] INFO [ExpirationReaper-0-topic]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2020-12-24 09:44:39,475] INFO [ExpirationReaper-0-Heartbeat]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2020-12-24 09:44:39,475] INFO [ExpirationReaper-0-Rebalance]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2020-12-24 09:44:39,484] INFO [GroupCoordinator 0]: Starting up. (kafka.coordinator.group.GroupCoordinator)
+[2020-12-24 09:44:39,484] INFO [GroupCoordinator 0]: Startup complete. (kafka.coordinator.group.GroupCoordinator)
+[2020-12-24 09:44:39,487] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:39,492] INFO Successfully created /controller_epoch with initial epoch 0 (kafka.zk.KafkaZkClient)
+[2020-12-24 09:44:39,518] INFO [ProducerId Manager 0]: Acquired new producerId block (brokerId:0,blockStartProducerId:0,blockEndProducerId:999) by writing to Zk with path version 1 (kafka.coordinator.transaction.ProducerIdManager)
+[2020-12-24 09:44:39,531] INFO [TransactionCoordinator id=0] Starting up. (kafka.coordinator.transaction.TransactionCoordinator)
+[2020-12-24 09:44:39,532] INFO [TransactionCoordinator id=0] Startup complete. (kafka.coordinator.transaction.TransactionCoordinator)
+[2020-12-24 09:44:39,537] INFO [Transaction Marker Channel Manager 0]: Starting (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+[2020-12-24 09:44:39,546] INFO [ExpirationReaper-0-AlterAcls]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2020-12-24 09:44:39,555] INFO [/config/changes-event-process-thread]: Starting (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+[2020-12-24 09:44:39,564] INFO [SocketServer brokerId=0] Started data-plane processors for 1 acceptors (kafka.network.SocketServer)
+[2020-12-24 09:44:39,566] INFO Kafka version: 2.4.1 (org.apache.kafka.common.utils.AppInfoParser)
+[2020-12-24 09:44:39,566] INFO Kafka commitId: c57222ae8cd7866b (org.apache.kafka.common.utils.AppInfoParser)
+[2020-12-24 09:44:39,571] INFO Kafka startTimeMs: 1608774279565 (org.apache.kafka.common.utils.AppInfoParser)
+[2020-12-24 09:44:39,582] INFO [KafkaServer id=0] started (kafka.server.KafkaServer)
+[2020-12-24 09:44:53,720] INFO Creating topic topic1 with configuration {} and initial partition assignment Map(0 -> ArrayBuffer(0)) (kafka.zk.AdminZkClient)
+[2020-12-24 09:44:53,776] INFO [KafkaApi-0] Auto creation of topic topic1 with 1 partitions and replication factor 1 is successful (kafka.server.KafkaApis)
+[2020-12-24 09:44:53,798] INFO Creating topic __consumer_offsets with configuration {segment.bytes=104857600, compression.type=producer, cleanup.policy=compact} and initial partition assignment Map(23 -> ArrayBuffer(0), 32 -> ArrayBuffer(0), 41 -> ArrayBuffer(0), 17 -> ArrayBuffer(0), 8 -> ArrayBuffer(0), 35 -> ArrayBuffer(0), 44 -> ArrayBuffer(0), 26 -> ArrayBuffer(0), 11 -> ArrayBuffer(0), 29 -> ArrayBuffer(0), 38 -> ArrayBuffer(0), 47 -> ArrayBuffer(0), 20 -> ArrayBuffer(0), 2 -> ArrayBuffer(0), 5 -> ArrayBuffer(0), 14 -> ArrayBuffer(0), 46 -> ArrayBuffer(0), 49 -> ArrayBuffer(0), 40 -> ArrayBuffer(0), 13 -> ArrayBuffer(0), 4 -> ArrayBuffer(0), 22 -> ArrayBuffer(0), 31 -> ArrayBuffer(0), 16 -> ArrayBuffer(0), 7 -> ArrayBuffer(0), 43 -> ArrayBuffer(0), 25 -> ArrayBuffer(0), 34 -> ArrayBuffer(0), 10 -> ArrayBuffer(0), 37 -> ArrayBuffer(0), 1 -> ArrayBuffer(0), 19 -> ArrayBuffer(0), 28 -> ArrayBuffer(0), 45 -> ArrayBuffer(0), 27 -> ArrayBuffer(0), 36 -> ArrayBuffer(0), 18 -> ArrayBuffer(0), 9 -> ArrayBuffer(0), 21 -> ArrayBuffer(0), 48 -> ArrayBuffer(0), 3 -> ArrayBuffer(0), 12 -> ArrayBuffer(0), 30 -> ArrayBuffer(0), 39 -> ArrayBuffer(0), 15 -> ArrayBuffer(0), 42 -> ArrayBuffer(0), 24 -> ArrayBuffer(0), 6 -> ArrayBuffer(0), 33 -> ArrayBuffer(0), 0 -> ArrayBuffer(0)) (kafka.zk.AdminZkClient)
+[2020-12-24 09:44:53,873] INFO [KafkaApi-0] Auto creation of topic __consumer_offsets with 50 partitions and replication factor 1 is successful (kafka.server.KafkaApis)
+[2020-12-24 09:44:53,901] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions Set(topic1-0) (kafka.server.ReplicaFetcherManager)
+[2020-12-24 09:44:54,015] INFO [Log partition=topic1-0, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:54,019] INFO [Log partition=topic1-0, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 53 ms (kafka.log.Log)
+[2020-12-24 09:44:54,020] INFO Created log for partition topic1-0 in F:\tmp\kafka-logs\topic1-0 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, segment.bytes -> 1073741824, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:54,022] INFO [Partition topic1-0 broker=0] No checkpointed highwatermark is found for partition topic1-0 (kafka.cluster.Partition)
+[2020-12-24 09:44:54,023] INFO [Partition topic1-0 broker=0] Log loaded for partition topic1-0 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:54,024] INFO [Partition topic1-0 broker=0] topic1-0 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:54,347] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions Set(__consumer_offsets-22, __consumer_offsets-30, __consumer_offsets-8, __consumer_offsets-21, __consumer_offsets-4, __consumer_offsets-27, __consumer_offsets-7, __consumer_offsets-9, __consumer_offsets-46, __consumer_offsets-25, __consumer_offsets-35, __consumer_offsets-41, __consumer_offsets-33, __consumer_offsets-23, __consumer_offsets-49, __consumer_offsets-47, __consumer_offsets-16, __consumer_offsets-28, __consumer_offsets-31, __consumer_offsets-36, __consumer_offsets-42, __consumer_offsets-3, __consumer_offsets-18, __consumer_offsets-37, __consumer_offsets-15, __consumer_offsets-24, __consumer_offsets-38, __consumer_offsets-17, __consumer_offsets-48, __consumer_offsets-19, __consumer_offsets-11, __consumer_offsets-13, __consumer_offsets-2, __consumer_offsets-43, __consumer_offsets-6, __consumer_offsets-14, __consumer_offsets-20, __consumer_offsets-0, __consumer_offsets-44, __consumer_offsets-39, __consumer_offsets-12, __consumer_offsets-45, __consumer_offsets-1, __consumer_offsets-5, __consumer_offsets-26, __consumer_offsets-29, __consumer_offsets-34, __consumer_offsets-10, __consumer_offsets-32, __consumer_offsets-40) (kafka.server.ReplicaFetcherManager)
+[2020-12-24 09:44:54,362] INFO [Log partition=__consumer_offsets-0, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:54,363] INFO [Log partition=__consumer_offsets-0, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 11 ms (kafka.log.Log)
+[2020-12-24 09:44:54,367] INFO Created log for partition __consumer_offsets-0 in F:\tmp\kafka-logs\__consumer_offsets-0 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:54,369] INFO [Partition __consumer_offsets-0 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-0 (kafka.cluster.Partition)
+[2020-12-24 09:44:54,371] INFO [Partition __consumer_offsets-0 broker=0] Log loaded for partition __consumer_offsets-0 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:54,372] INFO [Partition __consumer_offsets-0 broker=0] __consumer_offsets-0 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:54,411] INFO [Log partition=__consumer_offsets-29, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:54,412] INFO [Log partition=__consumer_offsets-29, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 4 ms (kafka.log.Log)
+[2020-12-24 09:44:54,413] INFO Created log for partition __consumer_offsets-29 in F:\tmp\kafka-logs\__consumer_offsets-29 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:54,417] INFO [Partition __consumer_offsets-29 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-29 (kafka.cluster.Partition)
+[2020-12-24 09:44:54,417] INFO [Partition __consumer_offsets-29 broker=0] Log loaded for partition __consumer_offsets-29 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:54,418] INFO [Partition __consumer_offsets-29 broker=0] __consumer_offsets-29 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:54,452] INFO [Log partition=__consumer_offsets-48, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:54,453] INFO [Log partition=__consumer_offsets-48, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 4 ms (kafka.log.Log)
+[2020-12-24 09:44:54,463] INFO Created log for partition __consumer_offsets-48 in F:\tmp\kafka-logs\__consumer_offsets-48 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:54,466] INFO [Partition __consumer_offsets-48 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-48 (kafka.cluster.Partition)
+[2020-12-24 09:44:54,468] INFO [Partition __consumer_offsets-48 broker=0] Log loaded for partition __consumer_offsets-48 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:54,469] INFO [Partition __consumer_offsets-48 broker=0] __consumer_offsets-48 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:54,509] INFO [Log partition=__consumer_offsets-10, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:54,510] INFO [Log partition=__consumer_offsets-10, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2020-12-24 09:44:54,512] INFO Created log for partition __consumer_offsets-10 in F:\tmp\kafka-logs\__consumer_offsets-10 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:54,516] INFO [Partition __consumer_offsets-10 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-10 (kafka.cluster.Partition)
+[2020-12-24 09:44:54,516] INFO [Partition __consumer_offsets-10 broker=0] Log loaded for partition __consumer_offsets-10 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:54,517] INFO [Partition __consumer_offsets-10 broker=0] __consumer_offsets-10 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:54,551] INFO [Log partition=__consumer_offsets-45, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:54,552] INFO [Log partition=__consumer_offsets-45, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 3 ms (kafka.log.Log)
+[2020-12-24 09:44:54,554] INFO Created log for partition __consumer_offsets-45 in F:\tmp\kafka-logs\__consumer_offsets-45 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:54,559] INFO [Partition __consumer_offsets-45 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-45 (kafka.cluster.Partition)
+[2020-12-24 09:44:54,560] INFO [Partition __consumer_offsets-45 broker=0] Log loaded for partition __consumer_offsets-45 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:54,561] INFO [Partition __consumer_offsets-45 broker=0] __consumer_offsets-45 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:54,597] INFO [Log partition=__consumer_offsets-26, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:54,598] INFO [Log partition=__consumer_offsets-26, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2020-12-24 09:44:54,600] INFO Created log for partition __consumer_offsets-26 in F:\tmp\kafka-logs\__consumer_offsets-26 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:54,603] INFO [Partition __consumer_offsets-26 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-26 (kafka.cluster.Partition)
+[2020-12-24 09:44:54,604] INFO [Partition __consumer_offsets-26 broker=0] Log loaded for partition __consumer_offsets-26 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:54,604] INFO [Partition __consumer_offsets-26 broker=0] __consumer_offsets-26 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:54,634] INFO [Log partition=__consumer_offsets-7, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:54,635] INFO [Log partition=__consumer_offsets-7, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2020-12-24 09:44:54,637] INFO Created log for partition __consumer_offsets-7 in F:\tmp\kafka-logs\__consumer_offsets-7 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:54,640] INFO [Partition __consumer_offsets-7 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-7 (kafka.cluster.Partition)
+[2020-12-24 09:44:54,641] INFO [Partition __consumer_offsets-7 broker=0] Log loaded for partition __consumer_offsets-7 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:54,649] INFO [Partition __consumer_offsets-7 broker=0] __consumer_offsets-7 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:54,681] INFO [Log partition=__consumer_offsets-42, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:54,682] INFO [Log partition=__consumer_offsets-42, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2020-12-24 09:44:54,684] INFO Created log for partition __consumer_offsets-42 in F:\tmp\kafka-logs\__consumer_offsets-42 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:54,686] INFO [Partition __consumer_offsets-42 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-42 (kafka.cluster.Partition)
+[2020-12-24 09:44:54,687] INFO [Partition __consumer_offsets-42 broker=0] Log loaded for partition __consumer_offsets-42 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:54,687] INFO [Partition __consumer_offsets-42 broker=0] __consumer_offsets-42 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:54,726] INFO [Log partition=__consumer_offsets-4, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:54,727] INFO [Log partition=__consumer_offsets-4, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2020-12-24 09:44:54,729] INFO Created log for partition __consumer_offsets-4 in F:\tmp\kafka-logs\__consumer_offsets-4 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:54,733] INFO [Partition __consumer_offsets-4 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-4 (kafka.cluster.Partition)
+[2020-12-24 09:44:54,733] INFO [Partition __consumer_offsets-4 broker=0] Log loaded for partition __consumer_offsets-4 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:54,734] INFO [Partition __consumer_offsets-4 broker=0] __consumer_offsets-4 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:54,768] INFO [Log partition=__consumer_offsets-23, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:54,768] INFO [Log partition=__consumer_offsets-23, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2020-12-24 09:44:54,773] INFO Created log for partition __consumer_offsets-23 in F:\tmp\kafka-logs\__consumer_offsets-23 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:54,774] INFO [Partition __consumer_offsets-23 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-23 (kafka.cluster.Partition)
+[2020-12-24 09:44:54,775] INFO [Partition __consumer_offsets-23 broker=0] Log loaded for partition __consumer_offsets-23 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:54,776] INFO [Partition __consumer_offsets-23 broker=0] __consumer_offsets-23 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:54,816] INFO [Log partition=__consumer_offsets-1, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:54,817] INFO [Log partition=__consumer_offsets-1, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2020-12-24 09:44:54,818] INFO Created log for partition __consumer_offsets-1 in F:\tmp\kafka-logs\__consumer_offsets-1 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:54,821] INFO [Partition __consumer_offsets-1 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-1 (kafka.cluster.Partition)
+[2020-12-24 09:44:54,822] INFO [Partition __consumer_offsets-1 broker=0] Log loaded for partition __consumer_offsets-1 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:54,823] INFO [Partition __consumer_offsets-1 broker=0] __consumer_offsets-1 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:54,858] INFO [Log partition=__consumer_offsets-20, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:54,860] INFO [Log partition=__consumer_offsets-20, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 3 ms (kafka.log.Log)
+[2020-12-24 09:44:54,865] INFO Created log for partition __consumer_offsets-20 in F:\tmp\kafka-logs\__consumer_offsets-20 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:54,866] INFO [Partition __consumer_offsets-20 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-20 (kafka.cluster.Partition)
+[2020-12-24 09:44:54,867] INFO [Partition __consumer_offsets-20 broker=0] Log loaded for partition __consumer_offsets-20 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:54,868] INFO [Partition __consumer_offsets-20 broker=0] __consumer_offsets-20 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:54,900] INFO [Log partition=__consumer_offsets-39, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:54,901] INFO [Log partition=__consumer_offsets-39, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2020-12-24 09:44:54,904] INFO Created log for partition __consumer_offsets-39 in F:\tmp\kafka-logs\__consumer_offsets-39 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:54,907] INFO [Partition __consumer_offsets-39 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-39 (kafka.cluster.Partition)
+[2020-12-24 09:44:54,909] INFO [Partition __consumer_offsets-39 broker=0] Log loaded for partition __consumer_offsets-39 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:54,910] INFO [Partition __consumer_offsets-39 broker=0] __consumer_offsets-39 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:54,943] INFO [Log partition=__consumer_offsets-17, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:54,944] INFO [Log partition=__consumer_offsets-17, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 3 ms (kafka.log.Log)
+[2020-12-24 09:44:54,947] INFO Created log for partition __consumer_offsets-17 in F:\tmp\kafka-logs\__consumer_offsets-17 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:54,962] INFO [Partition __consumer_offsets-17 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-17 (kafka.cluster.Partition)
+[2020-12-24 09:44:54,967] INFO [Partition __consumer_offsets-17 broker=0] Log loaded for partition __consumer_offsets-17 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:54,968] INFO [Partition __consumer_offsets-17 broker=0] __consumer_offsets-17 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:55,015] INFO [Log partition=__consumer_offsets-36, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:55,016] INFO [Log partition=__consumer_offsets-36, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 25 ms (kafka.log.Log)
+[2020-12-24 09:44:55,028] INFO Created log for partition __consumer_offsets-36 in F:\tmp\kafka-logs\__consumer_offsets-36 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:55,031] INFO [Partition __consumer_offsets-36 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-36 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,032] INFO [Partition __consumer_offsets-36 broker=0] Log loaded for partition __consumer_offsets-36 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,032] INFO [Partition __consumer_offsets-36 broker=0] __consumer_offsets-36 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:55,098] INFO [Log partition=__consumer_offsets-14, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:55,098] INFO [Log partition=__consumer_offsets-14, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2020-12-24 09:44:55,109] INFO Created log for partition __consumer_offsets-14 in F:\tmp\kafka-logs\__consumer_offsets-14 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:55,113] INFO [Partition __consumer_offsets-14 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-14 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,114] INFO [Partition __consumer_offsets-14 broker=0] Log loaded for partition __consumer_offsets-14 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,115] INFO [Partition __consumer_offsets-14 broker=0] __consumer_offsets-14 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:55,151] INFO [Log partition=__consumer_offsets-33, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:55,151] INFO [Log partition=__consumer_offsets-33, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2020-12-24 09:44:55,155] INFO Created log for partition __consumer_offsets-33 in F:\tmp\kafka-logs\__consumer_offsets-33 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:55,156] INFO [Partition __consumer_offsets-33 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-33 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,156] INFO [Partition __consumer_offsets-33 broker=0] Log loaded for partition __consumer_offsets-33 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,157] INFO [Partition __consumer_offsets-33 broker=0] __consumer_offsets-33 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:55,192] INFO [Log partition=__consumer_offsets-49, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:55,192] INFO [Log partition=__consumer_offsets-49, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2020-12-24 09:44:55,194] INFO Created log for partition __consumer_offsets-49 in F:\tmp\kafka-logs\__consumer_offsets-49 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:55,198] INFO [Partition __consumer_offsets-49 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-49 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,199] INFO [Partition __consumer_offsets-49 broker=0] Log loaded for partition __consumer_offsets-49 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,200] INFO [Partition __consumer_offsets-49 broker=0] __consumer_offsets-49 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:55,230] INFO [Log partition=__consumer_offsets-11, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:55,231] INFO [Log partition=__consumer_offsets-11, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2020-12-24 09:44:55,235] INFO Created log for partition __consumer_offsets-11 in F:\tmp\kafka-logs\__consumer_offsets-11 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:55,237] INFO [Partition __consumer_offsets-11 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-11 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,238] INFO [Partition __consumer_offsets-11 broker=0] Log loaded for partition __consumer_offsets-11 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,239] INFO [Partition __consumer_offsets-11 broker=0] __consumer_offsets-11 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:55,275] INFO [Log partition=__consumer_offsets-30, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:55,276] INFO [Log partition=__consumer_offsets-30, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2020-12-24 09:44:55,279] INFO Created log for partition __consumer_offsets-30 in F:\tmp\kafka-logs\__consumer_offsets-30 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:55,282] INFO [Partition __consumer_offsets-30 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-30 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,282] INFO [Partition __consumer_offsets-30 broker=0] Log loaded for partition __consumer_offsets-30 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,283] INFO [Partition __consumer_offsets-30 broker=0] __consumer_offsets-30 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:55,319] INFO [Log partition=__consumer_offsets-46, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:55,319] INFO [Log partition=__consumer_offsets-46, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 3 ms (kafka.log.Log)
+[2020-12-24 09:44:55,323] INFO Created log for partition __consumer_offsets-46 in F:\tmp\kafka-logs\__consumer_offsets-46 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:55,326] INFO [Partition __consumer_offsets-46 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-46 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,327] INFO [Partition __consumer_offsets-46 broker=0] Log loaded for partition __consumer_offsets-46 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,328] INFO [Partition __consumer_offsets-46 broker=0] __consumer_offsets-46 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:55,359] INFO [Log partition=__consumer_offsets-27, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:55,360] INFO [Log partition=__consumer_offsets-27, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2020-12-24 09:44:55,364] INFO Created log for partition __consumer_offsets-27 in F:\tmp\kafka-logs\__consumer_offsets-27 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:55,365] INFO [Partition __consumer_offsets-27 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-27 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,366] INFO [Partition __consumer_offsets-27 broker=0] Log loaded for partition __consumer_offsets-27 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,366] INFO [Partition __consumer_offsets-27 broker=0] __consumer_offsets-27 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:55,406] INFO [Log partition=__consumer_offsets-8, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:55,406] INFO [Log partition=__consumer_offsets-8, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2020-12-24 09:44:55,408] INFO Created log for partition __consumer_offsets-8 in F:\tmp\kafka-logs\__consumer_offsets-8 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:55,412] INFO [Partition __consumer_offsets-8 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-8 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,413] INFO [Partition __consumer_offsets-8 broker=0] Log loaded for partition __consumer_offsets-8 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,413] INFO [Partition __consumer_offsets-8 broker=0] __consumer_offsets-8 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:55,448] INFO [Log partition=__consumer_offsets-24, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:55,449] INFO [Log partition=__consumer_offsets-24, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 3 ms (kafka.log.Log)
+[2020-12-24 09:44:55,451] INFO Created log for partition __consumer_offsets-24 in F:\tmp\kafka-logs\__consumer_offsets-24 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:55,454] INFO [Partition __consumer_offsets-24 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-24 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,454] INFO [Partition __consumer_offsets-24 broker=0] Log loaded for partition __consumer_offsets-24 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,455] INFO [Partition __consumer_offsets-24 broker=0] __consumer_offsets-24 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:55,490] INFO [Log partition=__consumer_offsets-43, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:55,491] INFO [Log partition=__consumer_offsets-43, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2020-12-24 09:44:55,495] INFO Created log for partition __consumer_offsets-43 in F:\tmp\kafka-logs\__consumer_offsets-43 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:55,496] INFO [Partition __consumer_offsets-43 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-43 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,498] INFO [Partition __consumer_offsets-43 broker=0] Log loaded for partition __consumer_offsets-43 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,498] INFO [Partition __consumer_offsets-43 broker=0] __consumer_offsets-43 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:55,534] INFO [Log partition=__consumer_offsets-5, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:55,535] INFO [Log partition=__consumer_offsets-5, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2020-12-24 09:44:55,536] INFO Created log for partition __consumer_offsets-5 in F:\tmp\kafka-logs\__consumer_offsets-5 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:55,540] INFO [Partition __consumer_offsets-5 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-5 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,541] INFO [Partition __consumer_offsets-5 broker=0] Log loaded for partition __consumer_offsets-5 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,542] INFO [Partition __consumer_offsets-5 broker=0] __consumer_offsets-5 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:55,566] INFO [Log partition=__consumer_offsets-21, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:55,567] INFO [Log partition=__consumer_offsets-21, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2020-12-24 09:44:55,570] INFO Created log for partition __consumer_offsets-21 in F:\tmp\kafka-logs\__consumer_offsets-21 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:55,573] INFO [Partition __consumer_offsets-21 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-21 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,573] INFO [Partition __consumer_offsets-21 broker=0] Log loaded for partition __consumer_offsets-21 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,574] INFO [Partition __consumer_offsets-21 broker=0] __consumer_offsets-21 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:55,605] INFO [Log partition=__consumer_offsets-40, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:55,606] INFO [Log partition=__consumer_offsets-40, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2020-12-24 09:44:55,608] INFO Created log for partition __consumer_offsets-40 in F:\tmp\kafka-logs\__consumer_offsets-40 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:55,611] INFO [Partition __consumer_offsets-40 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-40 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,611] INFO [Partition __consumer_offsets-40 broker=0] Log loaded for partition __consumer_offsets-40 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,612] INFO [Partition __consumer_offsets-40 broker=0] __consumer_offsets-40 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:55,650] INFO [Log partition=__consumer_offsets-2, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:55,651] INFO [Log partition=__consumer_offsets-2, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2020-12-24 09:44:55,656] INFO Created log for partition __consumer_offsets-2 in F:\tmp\kafka-logs\__consumer_offsets-2 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:55,656] INFO [Partition __consumer_offsets-2 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-2 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,657] INFO [Partition __consumer_offsets-2 broker=0] Log loaded for partition __consumer_offsets-2 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,657] INFO [Partition __consumer_offsets-2 broker=0] __consumer_offsets-2 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:55,692] INFO [Log partition=__consumer_offsets-37, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:55,693] INFO [Log partition=__consumer_offsets-37, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2020-12-24 09:44:55,697] INFO Created log for partition __consumer_offsets-37 in F:\tmp\kafka-logs\__consumer_offsets-37 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:55,698] INFO [Partition __consumer_offsets-37 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-37 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,699] INFO [Partition __consumer_offsets-37 broker=0] Log loaded for partition __consumer_offsets-37 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,700] INFO [Partition __consumer_offsets-37 broker=0] __consumer_offsets-37 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:55,725] INFO [Log partition=__consumer_offsets-18, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:55,726] INFO [Log partition=__consumer_offsets-18, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2020-12-24 09:44:55,730] INFO Created log for partition __consumer_offsets-18 in F:\tmp\kafka-logs\__consumer_offsets-18 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:55,732] INFO [Partition __consumer_offsets-18 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-18 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,732] INFO [Partition __consumer_offsets-18 broker=0] Log loaded for partition __consumer_offsets-18 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,733] INFO [Partition __consumer_offsets-18 broker=0] __consumer_offsets-18 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:55,767] INFO [Log partition=__consumer_offsets-34, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:55,768] INFO [Log partition=__consumer_offsets-34, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2020-12-24 09:44:55,772] INFO Created log for partition __consumer_offsets-34 in F:\tmp\kafka-logs\__consumer_offsets-34 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:55,773] INFO [Partition __consumer_offsets-34 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-34 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,773] INFO [Partition __consumer_offsets-34 broker=0] Log loaded for partition __consumer_offsets-34 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,774] INFO [Partition __consumer_offsets-34 broker=0] __consumer_offsets-34 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:55,806] INFO [Log partition=__consumer_offsets-15, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:55,807] INFO [Log partition=__consumer_offsets-15, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2020-12-24 09:44:55,810] INFO Created log for partition __consumer_offsets-15 in F:\tmp\kafka-logs\__consumer_offsets-15 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:55,813] INFO [Partition __consumer_offsets-15 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-15 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,813] INFO [Partition __consumer_offsets-15 broker=0] Log loaded for partition __consumer_offsets-15 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,814] INFO [Partition __consumer_offsets-15 broker=0] __consumer_offsets-15 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:55,842] INFO [Log partition=__consumer_offsets-12, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:55,843] INFO [Log partition=__consumer_offsets-12, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2020-12-24 09:44:55,845] INFO Created log for partition __consumer_offsets-12 in F:\tmp\kafka-logs\__consumer_offsets-12 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:55,849] INFO [Partition __consumer_offsets-12 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-12 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,850] INFO [Partition __consumer_offsets-12 broker=0] Log loaded for partition __consumer_offsets-12 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,851] INFO [Partition __consumer_offsets-12 broker=0] __consumer_offsets-12 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:55,875] INFO [Log partition=__consumer_offsets-31, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:55,875] INFO [Log partition=__consumer_offsets-31, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2020-12-24 09:44:55,878] INFO Created log for partition __consumer_offsets-31 in F:\tmp\kafka-logs\__consumer_offsets-31 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:55,881] INFO [Partition __consumer_offsets-31 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-31 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,881] INFO [Partition __consumer_offsets-31 broker=0] Log loaded for partition __consumer_offsets-31 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,882] INFO [Partition __consumer_offsets-31 broker=0] __consumer_offsets-31 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:55,918] INFO [Log partition=__consumer_offsets-9, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:55,919] INFO [Log partition=__consumer_offsets-9, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 3 ms (kafka.log.Log)
+[2020-12-24 09:44:55,921] INFO Created log for partition __consumer_offsets-9 in F:\tmp\kafka-logs\__consumer_offsets-9 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:55,924] INFO [Partition __consumer_offsets-9 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-9 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,925] INFO [Partition __consumer_offsets-9 broker=0] Log loaded for partition __consumer_offsets-9 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,925] INFO [Partition __consumer_offsets-9 broker=0] __consumer_offsets-9 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:55,958] INFO [Log partition=__consumer_offsets-47, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:55,959] INFO [Log partition=__consumer_offsets-47, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2020-12-24 09:44:55,963] INFO Created log for partition __consumer_offsets-47 in F:\tmp\kafka-logs\__consumer_offsets-47 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:55,964] INFO [Partition __consumer_offsets-47 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-47 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,965] INFO [Partition __consumer_offsets-47 broker=0] Log loaded for partition __consumer_offsets-47 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:55,965] INFO [Partition __consumer_offsets-47 broker=0] __consumer_offsets-47 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:56,001] INFO [Log partition=__consumer_offsets-19, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:56,002] INFO [Log partition=__consumer_offsets-19, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 3 ms (kafka.log.Log)
+[2020-12-24 09:44:56,004] INFO Created log for partition __consumer_offsets-19 in F:\tmp\kafka-logs\__consumer_offsets-19 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:56,008] INFO [Partition __consumer_offsets-19 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-19 (kafka.cluster.Partition)
+[2020-12-24 09:44:56,008] INFO [Partition __consumer_offsets-19 broker=0] Log loaded for partition __consumer_offsets-19 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:56,009] INFO [Partition __consumer_offsets-19 broker=0] __consumer_offsets-19 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:56,042] INFO [Log partition=__consumer_offsets-28, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:56,043] INFO [Log partition=__consumer_offsets-28, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2020-12-24 09:44:56,045] INFO Created log for partition __consumer_offsets-28 in F:\tmp\kafka-logs\__consumer_offsets-28 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:56,048] INFO [Partition __consumer_offsets-28 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-28 (kafka.cluster.Partition)
+[2020-12-24 09:44:56,049] INFO [Partition __consumer_offsets-28 broker=0] Log loaded for partition __consumer_offsets-28 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:56,049] INFO [Partition __consumer_offsets-28 broker=0] __consumer_offsets-28 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:56,091] INFO [Log partition=__consumer_offsets-38, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:56,092] INFO [Log partition=__consumer_offsets-38, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2020-12-24 09:44:56,093] INFO Created log for partition __consumer_offsets-38 in F:\tmp\kafka-logs\__consumer_offsets-38 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:56,096] INFO [Partition __consumer_offsets-38 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-38 (kafka.cluster.Partition)
+[2020-12-24 09:44:56,097] INFO [Partition __consumer_offsets-38 broker=0] Log loaded for partition __consumer_offsets-38 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:56,097] INFO [Partition __consumer_offsets-38 broker=0] __consumer_offsets-38 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:56,126] INFO [Log partition=__consumer_offsets-35, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:56,127] INFO [Log partition=__consumer_offsets-35, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2020-12-24 09:44:56,128] INFO Created log for partition __consumer_offsets-35 in F:\tmp\kafka-logs\__consumer_offsets-35 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:56,132] INFO [Partition __consumer_offsets-35 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-35 (kafka.cluster.Partition)
+[2020-12-24 09:44:56,132] INFO [Partition __consumer_offsets-35 broker=0] Log loaded for partition __consumer_offsets-35 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:56,133] INFO [Partition __consumer_offsets-35 broker=0] __consumer_offsets-35 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:56,159] INFO [Log partition=__consumer_offsets-6, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:56,159] INFO [Log partition=__consumer_offsets-6, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2020-12-24 09:44:56,164] INFO Created log for partition __consumer_offsets-6 in F:\tmp\kafka-logs\__consumer_offsets-6 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:56,165] INFO [Partition __consumer_offsets-6 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-6 (kafka.cluster.Partition)
+[2020-12-24 09:44:56,166] INFO [Partition __consumer_offsets-6 broker=0] Log loaded for partition __consumer_offsets-6 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:56,166] INFO [Partition __consumer_offsets-6 broker=0] __consumer_offsets-6 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:56,200] INFO [Log partition=__consumer_offsets-44, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:56,201] INFO [Log partition=__consumer_offsets-44, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2020-12-24 09:44:56,204] INFO Created log for partition __consumer_offsets-44 in F:\tmp\kafka-logs\__consumer_offsets-44 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:56,207] INFO [Partition __consumer_offsets-44 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-44 (kafka.cluster.Partition)
+[2020-12-24 09:44:56,207] INFO [Partition __consumer_offsets-44 broker=0] Log loaded for partition __consumer_offsets-44 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:56,208] INFO [Partition __consumer_offsets-44 broker=0] __consumer_offsets-44 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:56,234] INFO [Log partition=__consumer_offsets-25, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:56,235] INFO [Log partition=__consumer_offsets-25, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2020-12-24 09:44:56,237] INFO Created log for partition __consumer_offsets-25 in F:\tmp\kafka-logs\__consumer_offsets-25 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:56,247] INFO [Partition __consumer_offsets-25 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-25 (kafka.cluster.Partition)
+[2020-12-24 09:44:56,249] INFO [Partition __consumer_offsets-25 broker=0] Log loaded for partition __consumer_offsets-25 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:56,251] INFO [Partition __consumer_offsets-25 broker=0] __consumer_offsets-25 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:56,285] INFO [Log partition=__consumer_offsets-16, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:56,286] INFO [Log partition=__consumer_offsets-16, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 3 ms (kafka.log.Log)
+[2020-12-24 09:44:56,288] INFO Created log for partition __consumer_offsets-16 in F:\tmp\kafka-logs\__consumer_offsets-16 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:56,296] INFO [Partition __consumer_offsets-16 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-16 (kafka.cluster.Partition)
+[2020-12-24 09:44:56,298] INFO [Partition __consumer_offsets-16 broker=0] Log loaded for partition __consumer_offsets-16 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:56,300] INFO [Partition __consumer_offsets-16 broker=0] __consumer_offsets-16 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:56,333] INFO [Log partition=__consumer_offsets-22, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:56,334] INFO [Log partition=__consumer_offsets-22, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2020-12-24 09:44:56,335] INFO Created log for partition __consumer_offsets-22 in F:\tmp\kafka-logs\__consumer_offsets-22 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:56,340] INFO [Partition __consumer_offsets-22 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-22 (kafka.cluster.Partition)
+[2020-12-24 09:44:56,341] INFO [Partition __consumer_offsets-22 broker=0] Log loaded for partition __consumer_offsets-22 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:56,342] INFO [Partition __consumer_offsets-22 broker=0] __consumer_offsets-22 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:56,383] INFO [Log partition=__consumer_offsets-41, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:56,384] INFO [Log partition=__consumer_offsets-41, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2020-12-24 09:44:56,388] INFO Created log for partition __consumer_offsets-41 in F:\tmp\kafka-logs\__consumer_offsets-41 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:56,389] INFO [Partition __consumer_offsets-41 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-41 (kafka.cluster.Partition)
+[2020-12-24 09:44:56,390] INFO [Partition __consumer_offsets-41 broker=0] Log loaded for partition __consumer_offsets-41 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:56,390] INFO [Partition __consumer_offsets-41 broker=0] __consumer_offsets-41 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:56,437] INFO [Log partition=__consumer_offsets-32, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:56,438] INFO [Log partition=__consumer_offsets-32, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 5 ms (kafka.log.Log)
+[2020-12-24 09:44:56,442] INFO Created log for partition __consumer_offsets-32 in F:\tmp\kafka-logs\__consumer_offsets-32 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:56,444] INFO [Partition __consumer_offsets-32 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-32 (kafka.cluster.Partition)
+[2020-12-24 09:44:56,444] INFO [Partition __consumer_offsets-32 broker=0] Log loaded for partition __consumer_offsets-32 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:56,445] INFO [Partition __consumer_offsets-32 broker=0] __consumer_offsets-32 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:56,483] INFO [Log partition=__consumer_offsets-3, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:56,484] INFO [Log partition=__consumer_offsets-3, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2020-12-24 09:44:56,486] INFO Created log for partition __consumer_offsets-3 in F:\tmp\kafka-logs\__consumer_offsets-3 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:56,489] INFO [Partition __consumer_offsets-3 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-3 (kafka.cluster.Partition)
+[2020-12-24 09:44:56,490] INFO [Partition __consumer_offsets-3 broker=0] Log loaded for partition __consumer_offsets-3 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:56,490] INFO [Partition __consumer_offsets-3 broker=0] __consumer_offsets-3 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:56,533] INFO [Log partition=__consumer_offsets-13, dir=F:\tmp\kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-12-24 09:44:56,534] INFO [Log partition=__consumer_offsets-13, dir=F:\tmp\kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2020-12-24 09:44:56,536] INFO Created log for partition __consumer_offsets-13 in F:\tmp\kafka-logs\__consumer_offsets-13 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-12-24 09:44:56,539] INFO [Partition __consumer_offsets-13 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-13 (kafka.cluster.Partition)
+[2020-12-24 09:44:56,540] INFO [Partition __consumer_offsets-13 broker=0] Log loaded for partition __consumer_offsets-13 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-12-24 09:44:56,540] INFO [Partition __consumer_offsets-13 broker=0] __consumer_offsets-13 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2020-12-24 09:44:56,574] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-22 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,575] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-25 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,577] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-28 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,577] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-22 in 2 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,579] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-31 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,580] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-25 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,586] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-34 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,596] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-28 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,597] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-37 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,601] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-31 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,602] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-40 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,603] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-34 in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,603] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-43 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,603] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-37 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,604] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-46 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,604] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-40 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,605] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-49 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,605] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-43 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,606] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-41 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,606] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-46 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,608] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-44 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,610] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-47 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,610] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-1 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,611] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-4 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,609] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-49 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,617] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-7 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,625] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-41 in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,626] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-10 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,627] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-44 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,627] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-13 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,628] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-47 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,631] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-16 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,632] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-19 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,633] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-2 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,633] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-5 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,634] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-8 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,634] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-11 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,632] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-1 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,635] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-14 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,635] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-4 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,636] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-17 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,637] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-20 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,637] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-23 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,640] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-26 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,640] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-29 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,641] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-32 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,636] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-7 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,642] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-35 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,648] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-10 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,649] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-38 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,654] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-13 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,656] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-0 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,657] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-16 in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,657] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-3 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,657] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-19 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,658] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-6 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,659] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-2 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,659] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-9 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,660] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-5 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,660] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-12 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,661] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-8 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,661] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-15 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,662] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-11 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,662] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-18 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,663] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-14 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,665] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-21 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,666] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-17 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,667] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-24 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,667] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-20 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,668] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-27 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,668] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-23 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,669] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-30 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,669] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-26 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,670] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-33 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,671] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-29 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,672] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-36 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,672] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-32 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,673] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-39 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,678] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-35 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,685] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-42 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,685] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-45 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,686] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-48 (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,685] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-38 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,687] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-0 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,688] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-3 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,689] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-6 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,690] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-9 in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,690] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-12 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,691] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-15 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,694] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-18 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,694] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-21 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,695] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-24 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,695] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-27 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,696] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-30 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,696] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-33 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,697] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-36 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,697] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-39 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,698] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-42 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,698] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-45 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,699] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-48 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-12-24 09:44:56,773] INFO [GroupCoordinator 0]: Preparing to rebalance group group1 in state PreparingRebalance with old generation 0 (__consumer_offsets-40) (reason: Adding new member consumer-1-bf9bc30b-71ab-4497-80b5-c78b5eda1e9c with group instanceid None) (kafka.coordinator.group.GroupCoordinator)
+[2020-12-24 09:44:56,782] INFO [GroupCoordinator 0]: Stabilized group group1 generation 1 (__consumer_offsets-40) (kafka.coordinator.group.GroupCoordinator)
+[2020-12-24 09:44:56,789] INFO [GroupCoordinator 0]: Assignment received from leader for group group1 for generation 1 (kafka.coordinator.group.GroupCoordinator)
+[2020-12-24 09:44:57,391] INFO [GroupCoordinator 0]: Member[group.instance.id None, member.id consumer-1-bf9bc30b-71ab-4497-80b5-c78b5eda1e9c] in group group1 has left, removing it from the group (kafka.coordinator.group.GroupCoordinator)
+[2020-12-24 09:44:57,392] INFO [GroupCoordinator 0]: Preparing to rebalance group group1 in state PreparingRebalance with old generation 1 (__consumer_offsets-40) (reason: removing member consumer-1-bf9bc30b-71ab-4497-80b5-c78b5eda1e9c on LeaveGroup) (kafka.coordinator.group.GroupCoordinator)
+[2020-12-24 09:44:57,396] INFO [GroupCoordinator 0]: Group group1 with generation 2 is now empty (__consumer_offsets-40) (kafka.coordinator.group.GroupCoordinator)
+[2020-12-24 09:45:04,218] INFO [GroupCoordinator 0]: Preparing to rebalance group testGroup in state PreparingRebalance with old generation 0 (__consumer_offsets-49) (reason: Adding new member consumer-2-48686782-fc6c-4be3-bcc0-4c199f1f727d with group instanceid None) (kafka.coordinator.group.GroupCoordinator)
+[2020-12-24 09:45:04,219] INFO [GroupCoordinator 0]: Stabilized group testGroup generation 1 (__consumer_offsets-49) (kafka.coordinator.group.GroupCoordinator)
+[2020-12-24 09:45:04,225] INFO [GroupCoordinator 0]: Assignment received from leader for group testGroup for generation 1 (kafka.coordinator.group.GroupCoordinator)
+[2020-12-24 09:47:09,292] INFO [GroupCoordinator 0]: Preparing to rebalance group group1 in state PreparingRebalance with old generation 2 (__consumer_offsets-40) (reason: Adding new member consumer-1-75960f88-0316-4c0d-9d71-7d91d9215c37 with group instanceid None) (kafka.coordinator.group.GroupCoordinator)
+[2020-12-24 09:47:09,293] INFO [GroupCoordinator 0]: Stabilized group group1 generation 3 (__consumer_offsets-40) (kafka.coordinator.group.GroupCoordinator)
+[2020-12-24 09:47:09,297] INFO [GroupCoordinator 0]: Assignment received from leader for group group1 for generation 3 (kafka.coordinator.group.GroupCoordinator)
+[2020-12-24 09:48:07,508] INFO [GroupCoordinator 0]: Preparing to rebalance group group1 in state PreparingRebalance with old generation 3 (__consumer_offsets-40) (reason: Adding new member consumer-1-4595616a-39d8-4064-9418-1721ba9ee10a with group instanceid None) (kafka.coordinator.group.GroupCoordinator)
+[2020-12-24 09:48:28,009] INFO [GroupCoordinator 0]: Member consumer-1-75960f88-0316-4c0d-9d71-7d91d9215c37 in group group1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
+[2020-12-24 09:48:28,011] INFO [GroupCoordinator 0]: Stabilized group group1 generation 4 (__consumer_offsets-40) (kafka.coordinator.group.GroupCoordinator)
+[2020-12-24 09:48:28,018] INFO [GroupCoordinator 0]: Assignment received from leader for group group1 for generation 4 (kafka.coordinator.group.GroupCoordinator)
