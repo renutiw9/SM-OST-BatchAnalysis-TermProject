@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>分析</title>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/comon0.css" />
+  <script src="js/echarts.min.js"></script>
+  <script src="js/echarts-wordcloud.min.js"></script>
+	<script src="js/jquery-2.2.1.min.js"></script>
+  <script src="js/jquery.limarquee.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/dataTool.js"></script>
+  <script src="js/index.js"></script>
+  <script src="js/china.js"></script>
+  <script src="js/hunan.js"></script>
+    <style>
+      .t_title {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        font-size: 2.5em;
+        line-height: 80px;
+        color: #fff;
+      }
+      #chart_map {
+        cursor: pointer;
+      }
+      .t_show {
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-radius: 2px;
+        background: #2c58a6;
+        padding: 2px 5px;
+        color: #fff;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <!--header-->
+    <div class="header">
+      <div class="bg_header">
+        <div class="header_nav fl t_title">
+          基于spark平台的实时流计算系统
+        </div>
+      </div>
+    </div>
+
+    <!--main-->
+    <div class="data_content">
+
+
+      <div class="data_main">
+        <div class="main_left fl">
+          <div class="left_1 t_btn6" style="cursor: pointer;">
+            <!--左上边框-->
+            <div class="t_line_box">
+              <i class="t_l_line"></i>
+              <i class="l_t_line"></i>
+            </div>
+            <!--右上边框-->
+            <div class="t_line_box">
+              <i class="t_r_line"></i>
+              <i class="r_t_line"></i>
+            </div>
+            <!--左下边框-->
+            <div class="t_line_box">
+              <i class="l_b_line"></i>
+              <i class="b_l_line"></i>
+            </div>
+            <!--右下边框-->
+            <div class="t_line_box">
+              <i class="r_b_line"></i>
+              <i class="b_r_line"></i>
+            </div>
+            <div class="main_title">
+              <img src="img/t_1.png" alt="" />
+              不同终端流量
+            </div>
+            <div
+              id="chart_1"
+              class="chart"
+              style="width:100%;height: 280px;"
+            ></div>
+          </div>
+          <div class="left_2" style="cursor: pointer;">
+            <!--左上边框-->
+            <div class="t_line_box">
+              <i class="t_l_line"></i>
+              <i class="l_t_line"></i>
+            </div>
+            <!--右上边框-->
+            <div class="t_line_box">
+              <i class="t_r_line"></i>
+              <i class="r_t_line"></i>
+            </div>
+            <!--左下边框-->
+            <div class="t_line_box">
+              <i class="l_b_line"></i>
+              <i class="b_l_line"></i>
+            </div>
+            <!--右下边框-->
+            <div class="t_line_box">
+              <i class="r_b_line"></i>
+              <i class="b_r_line"></i>
+            </div>
+            <div class="main_title">
+              <img src="img/t_1.png" alt="" />
+            实时访问量
+            </div>
+            <div
+              id="chart_2"
+              class="chart t_btn9"
+              style="width:100%;height: 280px;"
+            ></div>
+          </div>
+        </div>
+        <div class="main_center fl">
+          <div class="center_text">
+            <!--左上边框-->
+            <div class="t_line_box">
+              <i class="t_l_line"></i>
+              <i class="l_t_line"></i>
+            </div>
+            <!--右上边框-->
+            <div class="t_line_box">
+              <i class="t_r_line"></i>
+              <i class="r_t_line"></i>
+            </div>
+            <!--左下边框-->
+            <div class="t_line_box">
+              <i class="l_b_line"></i>
+              <i class="b_l_line"></i>
+            </div>
+            <!--右下边框-->
+            <div class="t_line_box">
+              <i class="r_b_line"></i>
+              <i class="b_r_line"></i>
+            </div>
+            <div class="main_title">
+              <img src="img/t_3.png" alt="" />
+              不同地区流量
+            </div>
+            <div id="chart_map" style="width:100%;height:610px;"></div>
+          </div>
+        </div>
+        <div class="main_right fr">
+          <div class="right_1">
+            <!--左上边框-->
+            <div class="t_line_box">
+              <i class="t_l_line"></i>
+              <i class="l_t_line"></i>
+            </div>
+            <!--右上边框-->
+            <div class="t_line_box">
+              <i class="t_r_line"></i>
+              <i class="r_t_line"></i>
+            </div>
+            <!--左下边框-->
+            <div class="t_line_box">
+              <i class="l_b_line"></i>
+              <i class="b_l_line"></i>
+            </div>
+            <!--右下边框-->
+            <div class="t_line_box">
+              <i class="r_b_line"></i>
+              <i class="b_r_line"></i>
+            </div>
+            <div class="main_title">
+              <img src="img/t_1.png" alt="" />
+             浏览前五名地区
+            </div>
+            <div
+              id="chart_3"
+              class="echart t_btn7"
+              style="width:100%;height: 280px;"
+            ></div>
+          </div>
+          <div class="right_2">
+            <!--左上边框-->
+            <div class="t_line_box">
+              <i class="t_l_line"></i>
+              <i class="l_t_line"></i>
+            </div>
+            <!--右上边框-->
+            <div class="t_line_box">
+              <i class="t_r_line"></i>
+              <i class="r_t_line"></i>
+            </div>
+            <!--左下边框-->
+            <div class="t_line_box">
+              <i class="l_b_line"></i>
+              <i class="b_l_line"></i>
+            </div>
+            <!--右下边框-->
+            <div class="t_line_box">
+              <i class="r_b_line"></i>
+              <i class="b_r_line"></i>
+            </div>
+            <div class="main_title">
+              <img src="img/t_5.png" alt="" />
+              站点访问情况
+            </div>
+            <div
+              id="chart_4"
+              class="echart fl t_btn4"
+              style="width:100%;height: 280px;cursor: pointer;"
+            ></div>
+          </div>
+        </div>
+      </div>
+      <div class="data_main data_center">
+        <div class="main_center fl">
+      </div>
+    </div>
+  </body>
+</html>
