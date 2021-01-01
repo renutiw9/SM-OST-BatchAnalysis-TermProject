@@ -1,7 +1,10 @@
-package com.elte;
+package com.browse;
 
+import lombok.extern.slf4j.Slf4j;
+import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 @Component
 public class Listener {
@@ -11,4 +14,8 @@ public class Listener {
         System.out.println(message);
     }
 
+    @KafkaListener(topics = "streaming")
+    public void streamData(String data){
+        System.out.println(data);
+    }
 }
