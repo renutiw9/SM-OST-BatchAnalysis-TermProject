@@ -1,0 +1,202 @@
+{
+  "fields": [
+    {
+      "name": "_id",
+      "path": "_id",
+      "count": 150000,
+      "types": [
+        {
+          "name": "ObjectID",
+          "bsonType": "ObjectID",
+          "path": "_id",
+          "count": 150000,
+          "values": []
+		      "total_count": 0,
+          "probability": 1,
+          "unique": 1000,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 150000,
+      "type": "ObjectID",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "Destination",
+      "path": "Destination",
+      "count": 150000,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "Destination",
+          "count": 150000,
+          "values": []
+		      "total_count": 0,
+          "probability": 1,
+          "unique": 12,
+          "has_duplicates": true
+        }
+      ],
+      "total_count": 150000,
+      "type": "String",
+      "has_duplicates": true,
+      "probability": 1
+    },
+    {
+      "name": "Info",
+      "path": "Info",
+      "count": 150000,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "Info",
+          "count": 150000,
+          "values": []
+		      "total_count": 0,
+          "probability": 1,
+          "unique": 96,
+          "has_duplicates": true
+        }
+      ],
+      "total_count": 150000,
+      "type": "String",
+      "has_duplicates": true,
+      "probability": 1
+    },
+    {
+      "name": "Length",
+      "path": "Length",
+      "count": 150000,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "Length",
+          "count": 150000,
+          "values": []
+		      "total_count": 0,
+          "probability": 1,
+          "unique": 33,
+          "has_duplicates": true
+        }
+      ],
+      "total_count": 150000,
+      "type": "String",
+      "has_duplicates": true,
+      "probability": 1
+    },
+    {
+      "name": "No",
+      "path": "No",
+      "count": 150000,
+      "types": [
+        {
+          "name": "Document",
+          "bsonType": "Document",
+          "path": "No",
+          "count": 150000,
+          "fields": [
+            {
+              "name": "",
+              "path": "No.",
+              "count": 150000,
+              "types": [
+                {
+                  "name": "String",
+                  "bsonType": "String",
+                  "path": "No.",
+                  "count": 150000,
+                  "values": []
+				          "total_count": 0,
+                  "probability": 1,
+                  "unique": 100,
+                  "has_duplicates": false
+                }
+              ],
+              "total_count": 150000,
+              "type": "String",
+              "has_duplicates": false,
+              "probability": 1
+            }
+          ],
+          "total_count": 0,
+          "probability": 1
+        }
+      ],
+      "total_count": 150000,
+      "type": "Document",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "Protocol",
+      "path": "Protocol",
+      "count": 150000,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "Protocol",
+          "count": 150000,
+          "values": []
+		      "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": true
+        }
+      ],
+      "total_count": 150000,
+      "type": "String",
+      "has_duplicates": true,
+      "probability": 1
+    },
+    {
+      "name": "Source",
+      "path": "Source",
+      "count": 150000,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "Source",
+          "count": 150000,
+          "values": []
+		      "total_count": 0,
+          "probability": 1,
+          "unique": 10,
+          "has_duplicates": true
+        }
+      ],
+      "total_count": 150000,
+      "type": "String",
+      "has_duplicates": true,
+      "probability": 1
+    },
+    {
+      "name": "Time",
+      "path": "Time",
+      "count": 150000,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "Time",
+          "count": 150000,
+          "values": []
+		      "total_count": 0,
+          "probability": 1,
+          "unique": 100,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 150000,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    }
+  ],
+  "count": 150000
+}
