@@ -3,7 +3,7 @@
 \usepackage{graphicx}
 
 \title{Batch Analysis of Network Security Monitoring Data}
-\author{Renu Tiwari, Jiang Xing Kun}
+\author{Renu Tiwari, Jiang Xing Kun,Mhyar Kousa}
 \date{January 2021}
 
 \begin{document}
@@ -39,5 +39,15 @@
      \item Participating in project team meetings, 
 \end{itemize}
 
-
+\subsection{Mhyar Kousa (ATTSGP)}
+\begin{itemize}
+\item Convert Pcap files into CVS data-set using wireshark.
+    \item Data  Reprocessing on Data Bricks Environment and apply anomaly detection to detect the outliers.
+    \item Streaming .csv data using kafka into “streaming” topic
+    \item Reading the streaming data using apache spark.
+    \item Preparing These series of RDDs that are feed into the Spark Mllib Pipeline containing the required reprocessing steps and the actual classifier model.
+    \item Prepare MariaDB SQL Server to save  the data instances after reprocessing phase is completed.
+    \item This database can be queried by a live dashboard, which displays in real time the results of the classification of the incoming data instances in dynamic charts.
+     \item Participating in project team meetings, 
+\end{itemize}
 \end{document}
